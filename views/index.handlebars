@@ -1,0 +1,52 @@
+<div class="columns parent">
+  <div class="column everything is-four-fifths">
+    <div id="map">
+    </div>
+  </div>
+</div>
+<div class="columns everything">
+  <div class="column">
+    <div class="field">
+      <div class="control">
+        <input class="input is-info is-rounded" type="text" placeholder="Your Name" id="businessname">
+      </div>
+    </div>
+    <div class="error"><img src="https://cdn.onlinewebfonts.com/svg/img_515233.png" width="20px"><b> Error:</b> Please
+      make sure you've clicked on a location, filled in your name and selected a business type.
+    </div>
+  </div>
+  <div class="column">
+    <div class="field">
+      <div class="select is-primary" id="typeinput">
+        <select>
+          <option>Type of Business</option>
+          <option value="cafe">Cafe</option>
+          <option value="bar">Bar</option>
+          <option value="restaurant">Restaurant</option>
+        </select>
+      </div>
+    </div>
+    <div class="column">
+      <button class="ui button" id="submit">Submit</button>
+    </div>
+    <div class="column">
+      <button class="ui button hide" id="reload">Enter New Search</button>
+    </div>
+  </div>
+  <div class="column">
+    <div class="column userinputtwo">
+    </div>
+    <h3 class="dataTitle hide">Vehicle Traffic Data</h3>
+    <div class="vehicle column">
+    </div>
+    <h3 class="dataTitle hide">Foot Traffic Data</h3>
+    <div class="foot column">
+    </div>
+  </div>
+</div>
+
+<script src="assets/js/moment.js"></script>
+<script src="https://code.jquery.com/jquery.js"></script>
+<script src="assets/js/map.js"></script>
+<script src="/assets/js/user.js"></script>
+<script async defer src="https://maps.googleapis.com/maps/api/js?key={{apiKey}}&callback=initMap"></script>
