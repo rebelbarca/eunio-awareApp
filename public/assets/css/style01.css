@@ -1,0 +1,608 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+:root {
+    --hue-neutral: 200;
+    --hue-wrong: 0;
+    --hue-correct: 145;
+}
+
+html, body {
+    --hue: var(--hue-neutral);
+    background-color: hsl(var(--hue), 100%, 20%);
+    height: 100%;
+    margin: 0;
+    overflow-x: hidden;
+}
+
+.jumbotron {
+    margin-bottom: 0;
+}
+
+.lead {
+    text-align: center;
+    color: #ffffff;
+}
+
+.flex-column {
+    min-height: calc(100vh - 70px);
+}
+
+.mainTitle {
+    background-color: #ffffff;
+}
+
+.navbar {
+    padding: 8px 80px;
+}
+
+.navbar.center .navbar-inner {
+    text-align: center;
+}
+
+.navbar.center .navbar-inner .nav {
+    display:inline-block;
+    float: none;
+}
+
+.navbar-brand {
+    /* font-family: "Georgia", "Times New Roman", Times, serif; */
+    font-family: Verdana, "Geneva", sans-serif;
+    font-size: 30px;
+    color: #ffffff !important;
+}
+
+#currentTime {
+    text-align: center;
+    font-size: 25px;
+}
+
+.header {
+    background-color: #212121 !important;
+}
+
+.navLogo {
+    text-align: center;
+}
+
+#minutes {
+    font-size: 40px;
+    float: left;
+    margin-left: 25%;
+    color: #ffffff;
+}
+  
+#seconds {
+    font-size: 25px;
+    float: left;
+    color: #333333;
+}
+
+.logoImage {
+    width: 195px;
+    /* height: 50px; */
+}
+
+.nav-item {
+    /* position: absolute; */
+    background-color: #212121;
+    font-size: 18px;
+    font-family: "Georgia", "Times New Roman", Times, serif;
+    text-align: center;
+    padding: 5px 1px 5px 1px;
+    width: 150px;
+    /* border-style: solid;
+    border-width: 1px;
+    border-color: #cccccc; */
+}
+.appLink {
+    color: #3f51b5 !important;
+    font-family: Verdana, "Geneva", sans-serif;;
+    color: #212121;
+    margin-left: 10px;
+    /* text-align: center; */
+    /* padding-top: 20px; */
+    /* padding-bottom: 20px; */
+    font-size: 18px;
+}
+
+.nav-link {
+    padding: 0;
+    background-color: #212121;
+    color: #ffffff !important;
+    /* text-align: left; */
+}
+
+.fa {
+    margin-right: 5px;
+    font-size: 25px;
+}
+
+.labelText {
+    color: #ffffff !important;
+}
+
+a:link {
+    color: #212121;
+}
+
+a:hover {
+    /* color: #ffffff !important; */
+    text-decoration: none;
+}
+
+.appLink:hover {
+    color: #303f9f !important;
+    text-decoration: none;
+}
+
+/* .nav-item:hover {
+    background-color: #777777;
+    color: #ffffff !important;
+    text-decoration: none;
+    padding: 5px 1px 5px 1px;
+    width: 100px;
+} */
+
+.nav-link:hover {
+    background-color: #777777;
+}
+
+a:focus {
+    color: #303f9f;
+}
+
+.active {
+    /* background-color: #ffffff !important; */
+    text-decoration: none;
+    padding: 5px 1px 5px 1px;
+    width: 100px;
+}
+
+#mainContent {
+    /* background-color: #efeee7; */
+    background: #eeeeee;
+    margin: 0;
+    /* padding-top: 30px; */
+    padding-bottom:100px;
+}
+
+.container {
+    background-color: #ffffff;
+    /* width: 225px; */
+    margin: 0 auto;
+    padding: 10px 30px 10px 30px;
+    max-width: 992px;
+}
+
+.searchContent {
+    padding: 0px 10px 10px 10px;
+}
+
+.userSearch {
+    margin-right: 0;
+}
+
+.singleLine {
+    margin-right: 0;
+    width: 100%;
+}
+
+h1 {
+    font-family: "Georgia", "Times New Roman", Times, serif;
+    color: #212121;
+    margin: 0;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 28px;
+}
+
+h2 {
+    font-family: "Georgia", "Times New Roman", Times, serif;
+    color: #333333;
+    margin-left: 10px;
+    text-align: center;
+    padding-top: 20px;
+    /* padding-bottom: 20px; */
+    font-size: 30px;
+}
+
+h3 {
+    font-family: "Georgia", "Times New Roman", Times, serif;
+    color: #333333;
+    margin-left: 10px;
+    text-align: center;
+    padding-top: 20px;
+    /* padding-bottom: 20px; */
+    font-size: 22px;
+}
+
+h5 {
+    font-family: Verdana, "Geneva", sans-serif;;
+    color: #ffffff;
+    /* margin-left: 10px; */
+    text-align: center;
+    /* padding-top: 20px; */
+    /* padding-bottom: 20px; */
+    font-size: 18px;
+}
+
+h6 {
+    font-family: Verdana, "Geneva", sans-serif;;
+    color: #212121;
+    margin-left: 10px;
+    text-align: left !important;
+    /* padding-top: 20px; */
+    /* padding-bottom: 20px; */
+    font-size: 18px;
+}
+
+.inputTextArea {
+    width: 100%;
+    resize: none;
+}
+
+.textArea {
+    width: 100%;
+    border: solid;
+    border-style: dashed;
+    border-width: 2px;
+    border-color: #0a00ff;
+    text-align: center;
+    padding-top: 10px;
+    height: 150px;
+    font-size: x-large;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    resize: none;
+}
+
+p {
+    font-family: "Georgia", "Times New Roman", Times, serif;
+    font-size: 15px;
+    line-height: 100%;
+    color: #212121;
+    margin-bottom: 10px;
+}
+
+
+hr {
+    border: none;
+    height: 5px !important;
+    background-color:#dddddd;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.wrapper {
+    min-height: 100%;
+    margin-bottom: -50px;
+}
+
+.push {
+    height: 100%;
+    background-color: #eeeeee;
+}
+
+.footer {
+    background: #212121;
+    /* margin: 0; */
+    text-align: center;
+    font-size: 14px;
+    padding: 10px 0px;
+    padding-bottom: 35px !important;
+    border-top: solid;
+    border-width: 5px;
+    border-color: #212121;
+    /* height: 100%; */
+}
+
+.text-muted {
+    color: #ffffff !important;
+}
+
+.modal-dialog {
+    background-color: #eeeeee;
+}
+
+.btn {
+    width: 100px;
+    display: block;
+    --hue: var(--hue-neutral);
+    /* background-color: hsl(var(--hue), 100%, 50%); */
+    background-color: #212121;
+    color: #ffffff;
+    border: 1px solid hsl(var(--hue), 100%, 30%);
+    border-color: #212121 !important;
+    border-radius: 5px;
+    outline: none;
+    padding: 0;
+}
+
+.savedCityBtn {
+    width: 150px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+}
+
+.clearBtn {
+    width: 150px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    --hue: var(--hue-neutral);
+    background-color: hsl(var(--hue), 100%, 50%);
+    color: #ffffff;
+    border: 1px solid hsl(var(--hue), 100%, 30%);
+    border-radius: 5px;
+    outline: none;
+}
+
+.btn:hover {
+    background-color: #ffffff;
+    border-color: #212121;
+    color: #212121;
+}
+
+.btn.correct {
+    --hue: var(--hue-correct);
+}
+
+.btn.wrong {
+    --hue: var(--hue-wrong);
+}
+
+.hide {
+    display: none;
+}
+
+.show {
+    visibility: visible;
+}
+
+.resumeLink {
+    text-align: center;
+    color: #212121 !important;
+}
+
+.img-fluid {
+    width: 100% !important;
+    height: 100%;
+    z-index: 100;
+    padding: 30px 0px;
+}
+
+.carouselImage {
+    width: 100%;
+    height: 75vh;
+}
+
+.label {
+    position: relative;
+    background: #212121;
+    bottom: 80px;
+    z-index: 200;
+    width: 100%;
+    /* padding: 5px; */
+    text-align: center !important;
+}
+
+.label:hover {
+    background-color: #ffffff;
+    text-decoration: none;
+  }
+
+/* Style the active class, and buttons on mouse-over */
+.labelText:hover {
+    background-color: #ffffff;
+    color: #212121 !important;
+    text-decoration: none;
+}
+
+.form-control {
+    resize: none;
+}
+
+#passLength {
+    padding-top: 15px;
+    text-align: left;
+}
+
+/* #passwordLength {
+    margin: auto;
+    display: block;
+} */
+/* These rules take effect when the browser's width */
+/* is either 225px or more. */
+@media screen and (min-width: 225px) {
+    /* The body background color will be #ff0000 */
+    body {
+        background-color: #ff0000;
+    }
+
+    /* The container width will be 225px */
+    .container,
+    .footer {
+        width: 100%;
+    }
+
+    .form-group,
+    .form-control {
+        font-size: 12px;
+    }
+    p {
+        font-size: 16px;
+        line-height: 100%;
+        text-align: justify;
+    }
+    .navLogo {
+        margin-top: 10px;
+    }
+    #currentTime {
+        margin-top: 0;
+    }
+    .labelText {
+        font-size: 20px;
+    }
+}
+/* These rules take effect when the browser's width */
+/* is either 320px or more. */
+@media screen and (min-width: 320px) {
+    /* The body's bg color will be #4caf50 */
+    body {
+      background-color: #4caf50;
+    } */
+    
+    h1 {
+        text-align: left;
+    }
+
+    .logoImage {
+        width: 250px;
+        /* height: 60px; */
+    }
+
+    /* The container width will be 576px */
+    .container {
+      width: 100%;
+    }
+    p {
+        font-size: 18px;
+        line-height: 150%;
+        text-align: justify;
+    }
+    .navLogo {
+        margin-top: 10px;
+    }
+    #currentTime {
+        margin-top: 0;
+    }
+    .labelText {
+        font-size: 20px;
+    }
+}
+/* These rules take effect when the browser's width */
+/* is either 576px or more. */
+@media screen and (min-width: 576px) { */
+    /* The body's bg color will be #fca203 */
+    body {
+      background-color: #fca203;
+    }
+
+    h1 {
+        font-size: 28px;
+    }
+
+    p {
+        font-size: 14px;
+        line-height: 115%;
+        text-align: justify;
+    }
+
+    .logoImage {
+        width: 300px;
+        /* height: 70px; */
+    }
+
+    .form-group,
+    .form-control {
+        font-size: 8px;
+    }
+    .navLogo {
+        margin-top: 10px;
+    }
+    #currentTime {
+        margin-top: 0;
+    }
+}
+/* These rules take effect when the browser's width */
+/* is either 768px or more. */
+@media screen and (min-width: 768px) {
+    /* The body's bg color will be #e803fc */
+    body {
+      background-color: #e803fc;
+    }
+
+    h1 {
+        font-size: 30px;
+    }
+
+    p {
+        font-size: 15px;
+        line-height: 150%;
+        text-align: justify;
+    }
+
+    .logoImage {
+        width: 350px;
+        /* height: 80px; */
+    }
+
+    .form-group,
+    .form-control {
+        font-size: 12px;
+    }
+    .navLogo {
+        margin-top: 0;
+    }
+    #currentTime {
+        margin-top: 30px;
+    }
+}
+/* These rules take effect when the browser's width */
+/* is either 992px or more. */
+@media screen and (min-width: 992px) {
+    /* The body's bg color will be #03fcf2 */
+    body {
+      background-color: #03fcf2;
+    }
+
+    h1 {
+        font-size: 35px;
+    }
+
+    p {
+        font-size: 18px;
+        line-height: 150%;
+        text-align: justify;
+    }
+
+    .logoImage {
+        width: 400px;
+        /* height: 90px; */
+    }
+
+    .form-group,
+    .form-control {
+        font-size: 15px;
+    }
+    .navLogo {
+        margin-top: 0;
+    }
+    #currentTime {
+        margin-top: 30px;
+    }
+}
+
+/* Extra small (xs) devices (portrait phones, less than 576px) */
+/* No media query since this is the default in Bootstrap */
+
+/* Small (sm) devices (landscape phones, 576px and up) */
+/* @media (min-width: 576px) { ... } */
+
+/* Medium (md) devices (tablets, 768px and up) */
+/* @media (min-width: 768px) { ... } */
+
+/* Large (lg) devices (desktops, 992px and up) */
+/* @media (min-width: 992px) { ... } */
+
+/* Extra (xl) large devices (large desktops, 1200px and up) */
+/* @media (min-width: 1200px) { ... } */
+

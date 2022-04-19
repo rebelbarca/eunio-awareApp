@@ -1,0 +1,132 @@
+#map {
+  height: 100%;
+  width: 100%;
+  top: 5%;
+  left: 2%;
+}
+
+.parent {
+  height: 70%;
+  width: 80%;
+}
+
+.everything {
+  height: 100%;
+  width: 100%;
+}
+
+.column {
+  padding: 10px 10px 50px 20px;
+}
+
+.ul .il {
+  border: 1px rgb(50, 50, 83) solid;
+}
+
+html,
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  background-image: linear-gradient(rgb(124, 132, 175), rgb(200, 213, 255));
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+button{
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+button:after {
+  content: '»';
+  position: absolute;
+  opacity: 0;  
+  top: 14px;
+  right: -20px;
+  transition: 0.5s;
+}
+
+button:hover{
+  padding-right: 24px;
+  padding-left:8px;
+}
+
+button:hover:after {
+  opacity: 1;
+  right: 10px;
+}
+
+button {
+  font-size: 32px;
+  padding: 16px;
+  width: 250px;
+  transition: all 0.5s;
+  cursor: pointer;
+}
+
+.error {display:none;}
+
+.card {
+  width: 100%;
+}
+
+.delete {background-color: rgb(146, 5, 5);}
+
+.hide {
+  display: none;
+}
+
+.show {
+  visibility: visible;
+}
+
+h1 {
+  font-family: "Georgia", "Times New Roman", Times, serif;
+  color: #ffffff;
+  margin: 0;
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  font-size: 28px;
+}
+
+h3 {
+  font-family: "Georgia", "Times New Roman", Times, serif;
+  color: #333333;
+  margin-left: 10px;
+  text-align: left;
+  padding-top: 20px;
+  /* padding-bottom: 20px; */
+  font-size: 28px;
+}
+
+h5 {
+  font-family: "Georgia", "Times New Roman", Times, serif;
+  color: #ffffff;
+  text-align: left;
+  padding: 10px 20px;
+  /* padding-bottom: 20px; */
+  font-size: 20px;
+  margin-bottom: 0;
+}
+
+h6 {
+  font-family: "Georgia", "Times New Roman", Times, serif;
+  color: #ffffff !important;
+  text-align: left;
+  padding: 0px 20px 10px 20px;
+  /* padding-bottom: 20px; */
+  font-size: 16px;
+}
+
+.img-fluid {
+  /* width: 50%; */
+  /* height: 50%; */
+  z-index: 100;
+  /* padding-bottom: 30px; */
+}
