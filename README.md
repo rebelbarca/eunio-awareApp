@@ -11,22 +11,22 @@ When opening the web application, the user will be presented with the landing pa
 The application uses a server to retrieve and send data across various files which are then used the process the data in order to display information back to the user.The package allowed requested data to be rendered into the body of the html page instead of creating strings and pushing them into an html file.
 
 The following npm's and methods where used in the development of this application:
-•	ajax
-•	axios
-•	jquery
-•	mysql
-•	express
-•	path
-•	Procfile
-•	mongoose
-•	morgan
-•	dotenv
-•	fs
-•	require
-•	bycryptjs
-•	jsonwebtoken
-•	passport
-•	validator
+- ajax
+- axios
+- jquery
+- mysql
+- express
+- path
+- Procfile
+- mongoose
+- morgan
+- dotenv
+- fs
+- require
+- bycryptjs
+- jsonwebtoken
+- passport
+- validator
 
 Getting Started
 
@@ -41,17 +41,16 @@ git clone https://github.com/rebelbarca/eunio-awareApp.git
 
 This application was built using:
 The following coding languages should be considered to build the application:
-•	HTML: HyperText Markup Language that allows the developer to describe pages
-•	CSS: Style Sheet Language that allows the developer to style an HTML document
-•	Bootstrap: Library of HTML and CSS files and code https://getbootstrap.com/
-•	API: Application Programming Interface, which is a software intermediary that allows two applications to talk to each other.
-•	Node.js: An open-source, cross-platform, JavaScript runtime environment that executes JavaScript code outside of a browser.
-•	Express.js: An open-source web application framework for Node.js
-•	Heroku: Is a platform as a service (PaaS) that enables developers to build, run, and operate applications in the cloud
-•	mySQL: A relational database that organises data into one or more data tables in which data types may be related to each other. These relations help structure the data.
-•	mongoDB: Is a cross-platform document-oriented database program. It uses JSON-like documents with schema.
-•	React.js: User Interface (UI) components are used as an efficient way to render webpages. Combining this UI with the speed of JavaScript enables dynamic and responsive user inputs.
-•	Google Maps: a web mapping platform and consumer application offered by Google. It offers satellite imagery, aerial photography, and street maps.
-
+- HTML: HyperText Markup Language that allows the developer to describe pages
+- CSS: Style Sheet Language that allows the developer to style an HTML document
+- Bootstrap: Library of HTML and CSS files and code https://getbootstrap.com/
+- API: Application Programming Interface, which is a software intermediary that allows two applications to talk to each other.
+- Node.js: An open-source, cross-platform, JavaScript runtime environment that executes JavaScript code outside of a browser.
+- Express.js: An open-source web application framework for Node.js
+- Heroku: Is a platform as a service (PaaS) that enables developers to build, run, and operate applications in the cloud
+- mySQL: A relational database that organises data into one or more data tables in which data types may be related to each other. These relations help structure the data.
+- mongoDB: Is a cross-platform document-oriented database program. It uses JSON-like documents with schema.
+- React.js: User Interface (UI) components are used as an efficient way to render webpages. Combining this UI with the speed of JavaScript enables dynamic and responsive user inputs.
+- Google Maps: a web mapping platform and consumer application offered by Google. It offers satellite imagery, aerial photography, and street maps.
 
 ![eunio-awareApp screenShot](public/assets/images/eunio_awareApp01.jpg)
