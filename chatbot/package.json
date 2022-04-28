@@ -1,0 +1,28 @@
+{
+  "name": "chatbot",
+  "version": "1.0.0",
+  "description": "chatbot app based on react and express",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server",
+    "server": "nodemon server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rebelbarca/eunio-awareApp.git"
+  },
+  "author": "Brearne Gibson",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rebelbarca/eunio-awareApp/issues"
+  },
+  "homepage": "https://github.com/rebelbarca/eunio-awareApp#readme",
+  "dependencies": {
+    "dotenv": "^16.0.0",
+    "express": "^4.17.3",
+    "ibm-watson": "^7.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
