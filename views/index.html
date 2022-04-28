@@ -28,8 +28,8 @@
 
     <header class='mainTitle'>
         <div class="row brandname">
-            <div class="col-sm-12 col-md-6 offset-md-3 navLogo">
-                <a class="navbar-brand" href="/"><img src=""
+            <div class="col-sm-6 col-md-6 offset-md-4 navLogo">
+                <a class="navbar-brand" href="/"><img src="assets/images/eunio-aware transparentWebsite.png"
                         alt="Company Logo" class="logoImage"></a>
             </div>
         </div>
@@ -85,52 +85,63 @@
     </section>
 
     <section id="mainContent">
-        <div class="columns parent">
-            <div class="column everything is-four-fifths">
-              <div id="map">
-              </div>
+        <div class="row">
+            <div id="map"></div>
+        </div>
+        <div class="row">
+            <div class="col-md-6">
+                <div class="field">
+                    <div class="control">
+                        <input class="input is-info is-rounded" type="text" placeholder="Your Name" id="businessname">
+                    </div>
+                </div>
+                <div class="error"><img src="https://cdn.onlinewebfonts.com/svg/img_515233.png" width="20px"><b> Error:</b> Please
+                make sure you've clicked on a location, filled in your name and selected a business type.
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="field">
+                    <div class="select is-primary" id="typeinput">
+                        <select>
+                        <option>State of Mind</option>
+                        <option value="Content">Content</option>
+                        <option value="Anxious">Anxious</option>
+                        <option value="Stressed">Stressed</option>
+                        </select>
+                    </div>
+                </div>
             </div>
         </div>
-        <div class="columns everything">
-        <div class="column">
-            <div class="field">
-            <div class="control">
-                <input class="input is-info is-rounded" type="text" placeholder="Your Name" id="businessname">
-            </div>
-            </div>
-            <div class="error"><img src="https://cdn.onlinewebfonts.com/svg/img_515233.png" width="20px"><b> Error:</b> Please
-            make sure you've clicked on a location, filled in your name and selected a business type.
-            </div>
-        </div>
-        <div class="column">
-            <div class="field">
-                <div class="select is-primary" id="typeinput">
-                    <select>
-                    <option>Type of Business</option>
-                    <option value="cafe">Cafe</option>
-                    <option value="bar">Bar</option>
-                    <option value="restaurant">Restaurant</option>
-                    </select>
-                </div>
-                </div>
-                <div class="column">
+
+            
+        <div class="row">
+            <div class="col-md-4">
                 <button class="ui button" id="submit">Submit</button>
-                </div>
-                <div class="column">
+            </div>    
+        </div>
+        <div class="row">
+            <div class="col-md-4">
                 <button class="ui button hide" id="reload">Enter New Search</button>
-                </div>
             </div>
-            <div class="column">
-                <div class="column userinputtwo">
-                </div>
-                <h3 class="dataTitle hide">Vehicle Traffic Data</h3>
-                <div class="vehicle column">
-                </div>
-                <h3 class="dataTitle hide">Foot Traffic Data</h3>
-                <div class="foot column">
-                </div>
+            <div class="col-md-4">
+                <button class="ui button hide" id="update">Update State of Mind</button>
             </div>
         </div>
+
+                
+        <div class="row">
+            <div class="col-md-3 offset-md-1 userinputtwo">
+            </div>
+            <div class="col-md-4">
+                <h3 class="dataTitle hide">Vehicle Traffic Data</h3>
+                <div class="col-md-4 vehicle"></div>
+            </div>
+            <div class="col-md-4">
+                <h3 class="dataTitle hide">Foot Traffic Data</h3>
+                <div class="col-md-4 foot"></div>
+            </div>
+        </div>
+
     </section>
     <div class="push"></div>
 
