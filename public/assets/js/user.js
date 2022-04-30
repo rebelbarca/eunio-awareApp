@@ -46,7 +46,7 @@ $(document).ready(function () {
                     vehicleData.forEach(element => {
                         const dist = getDrivingDistance(element.wgs84_latitude, userData.lat, element.wgs84_longitude, userData.lon);
                         console.log(dist);
-                        if (dist < 3) {
+                        if (dist < 5) {
                             inRangeArray.push(element)
                         }
                     })
