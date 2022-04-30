@@ -47,12 +47,12 @@ app.use(methodOverride('_method'))
 // app.set("view engine", "handlebars");
 app.delete("/api/logout", (req, res) => {
   req.logOut()
-  res.redirect('/login')
+  res.redirect('/')
 });
 
 app.post("/api/login", passport.authenticate('local', {
-  successRedirect: '/',
-  failureRedirect: '/login',
+  successRedirect: '/home',
+  failureRedirect: '/',
   failureFlash: true
 })); 
 
@@ -65,7 +65,7 @@ app.post("/api/register", async (req, res) => {
       email: req.body.email,
       password: hashedPassword
     })
-    res.redirect('/login')
+    res.redirect('/')
   } 
   catch {
     res.redirect('/register')

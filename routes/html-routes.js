@@ -10,11 +10,11 @@ module.exports = function (app) {
 
   // app.set('viewengine', 'ejs');
 
-  app.get("/", checkAuthenticated, (req, res) => {
+  app.get("/home", checkAuthenticated, (req, res) => {
     res.render("index.ejs", { name: req.user.name })
   });
 
-  app.get("/login", checkNotAuthenticated, (req, res) => {
+  app.get("/", checkNotAuthenticated, (req, res) => {
     res.render("login.ejs")
   });
 
