@@ -6,14 +6,17 @@
   "dependencies": {
     "ajax": "0.0.4",
     "axios": "^0.26.1",
+    "bcrypt": "^5.0.1",
     "bcryptjs": "^2.4.3",
     "body-parser": "^1.20.0",
     "comment-json": "^4.2.2",
     "cors": "^2.8.5",
-    "dotenv": "^8.6.0",
+    "ejs": "^3.1.7",
     "eslint": "^6.8.0",
     "express": "^4.17.3",
+    "express-flash": "0.0.2",
     "express-handlebars": "^6.0.5",
+    "express-session": "^1.17.2",
     "fs": "0.0.1-security",
     "http": "0.0.1-security",
     "if-env": "^1.0.4",
@@ -21,6 +24,7 @@
     "jquery": "^3.6.0",
     "json-stringify-safe": "^5.0.1",
     "jsonwebtoken": "^8.5.1",
+    "method-override": "^3.0.0",
     "mongoose": "^6.3.0",
     "mongoose-float": "^1.0.4",
     "morgan": "^1.10.0",
@@ -28,6 +32,7 @@
     "mysql2": "^2.3.3",
     "passport": "^0.5.2",
     "passport-jwt": "^4.0.0",
+    "passport-local": "^1.0.0",
     "path": "^0.12.7",
     "require": "^2.4.20",
     "sequelize": "^6.19.0",
@@ -35,10 +40,13 @@
     "util": "^0.12.4",
     "validator": "^13.7.0"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "dotenv": "^8.6.0",
+    "nodemon": "^2.0.16"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js"
+    "start": "nodemon server.js"
   },
   "repository": {
     "type": "git",
