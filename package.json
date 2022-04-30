@@ -1,7 +1,7 @@
 {
-  "name": "traffictracker",
+  "name": "eunio-awareapp",
   "version": "1.0.0",
-  "description": "",
+  "description": "Summary",
   "main": "server.js",
   "dependencies": {
     "ajax": "0.0.4",
@@ -50,12 +50,13 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/pozengineer/trafficTracker.git"
+    "url": "git+https://github.com/rebelbarca/eunio-awareApp.git"
+    
   },
   "author": "Dhani Pozniak",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/pozengineer/trafficTracker/issues"
+    "url": "https://github.com/rebelbarca/eunio-awareApp.git/issues"
   },
-  "homepage": "https://github.com/pozengineer/trafficTracker#readme"
+  "homepage": "https://github.com/rebelbarca/eunio-awareApp#readme"
 }
