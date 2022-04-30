@@ -30,9 +30,6 @@ app.use(express.static("public/assets/images"));
 
 app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
-if (process.env.NODE_ENV !== "production") {
-  dotenv.config()
-}
 
 app.use(flash())
 app.use(session({
