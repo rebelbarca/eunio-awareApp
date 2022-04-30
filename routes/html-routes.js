@@ -10,7 +10,7 @@ module.exports = function (app) {
 
   // app.set('viewengine', 'ejs');
 
-  app.get("/home", checkAuthenticated, (req, res) => {
+  app.get("/profile", checkAuthenticated, (req, res) => {
     res.render("index.ejs", { name: req.user.name })
   });
 
@@ -38,12 +38,12 @@ module.exports = function (app) {
     if (req.isAuthenticated()) {
       return next()
     }
-    res.redirect('/login')
+    res.redirect('/profile')
   }
 
   function checkNotAuthenticated(req, res, next) {
     if (req.isAuthenticated()) {
-      return res.redirect('/')
+      return res.redirect('/profile')
     }
     next()
   }

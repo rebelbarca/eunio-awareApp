@@ -51,10 +51,19 @@ app.delete("/api/logout", (req, res) => {
 });
 
 app.post("/api/login", passport.authenticate('local', {
-  successRedirect: '/home',
+  successRedirect: '/profile',
   failureRedirect: '/',
   failureFlash: true
-})); 
+}));
+
+app.post("/api/landingPage", async (req, res) => {
+  try {
+    res.redirect('/landingPage')
+  } 
+  catch {
+    res.redirect('/profile')
+  }
+});
 
 app.post("/api/register", async (req, res) => {
   try {
