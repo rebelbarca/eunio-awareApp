@@ -56,10 +56,6 @@ app.post("/api/login", passport.authenticate('local', {
   failureFlash: true
 })); 
 
-// app.post("/api/landingPage", async (req, res) => {
-//   return res.redirect('/landingPage')
-// }); 
-
 app.post("/api/register", async (req, res) => {
   try {
     const hashedPassword= await bcrypt.hash(req.body.password, 10)
