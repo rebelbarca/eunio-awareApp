@@ -34,6 +34,10 @@ module.exports = function (app) {
     res.sendFile(path.join(__dirname, "../views/googleMaps.html"));
   });
 
+  app.get("/realTimeChat", function(req, res) {
+    res.sendFile(path.join(__dirname, "../views/realTimeChat.html"));
+  });
+
   function checkAuthenticated(req, res, next) {
     if (req.isAuthenticated()) {
       return next()

@@ -4,4 +4,5 @@ $(document).ready(function () {
         console.log("hello!");
         window.location.href = "/app";
     });
+
 });
