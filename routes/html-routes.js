@@ -26,7 +26,7 @@ module.exports = function (app) {
     res.sendFile(path.join(__dirname, "../views/landingPage.html"));
   });
 
-  app.get("/favicon.ico", checkAuthenticated, function(req, res) {
+  app.get("/favicon.ico", function(req, res) {
     res.sendFile(path.join(__dirname, "../public/assets/images/favicon.ico/favicon.ico"));
   });
 
@@ -38,7 +38,7 @@ module.exports = function (app) {
     if (req.isAuthenticated()) {
       return next()
     }
-    res.redirect('/profile')
+    res.redirect('/')
   }
 
   function checkNotAuthenticated(req, res, next) {
