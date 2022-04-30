@@ -30,9 +30,6 @@ app.use(express.static("public/assets/images"));
 
 app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
-if (process.env.NODE_ENV !== "production") {
-  dotenv.config()
-}
 
 app.use(flash())
 app.use(session({
@@ -50,14 +47,14 @@ app.use(methodOverride('_method'))
 // app.set("view engine", "handlebars");
 app.delete("/api/logout", (req, res) => {
   req.logOut()
-  res.redirect('/login')
+  res.redirect('/')
 });
 
 app.post("/api/login", passport.authenticate('local', {
-  successRedirect: '/',
-  failureRedirect: '/login',
+  successRedirect: '/profile',
+  failureRedirect: '/',
   failureFlash: true
-})); 
+}));
 
 app.post("/api/landingPage", async (req, res) => {
   try {
@@ -66,7 +63,7 @@ app.post("/api/landingPage", async (req, res) => {
   catch {
     res.redirect('/profile')
   }
-}); 
+});
 
 app.post("/api/register", async (req, res) => {
   try {
@@ -77,7 +74,7 @@ app.post("/api/register", async (req, res) => {
       email: req.body.email,
       password: hashedPassword
     })
-    res.redirect('/login')
+    res.redirect('/')
   } 
   catch {
     res.redirect('/register')
