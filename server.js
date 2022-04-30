@@ -1,5 +1,6 @@
 const express= require("express");
 const bcrypt= require("bcrypt");
+// const cors= require('cors')
 const app= express();
 const passport= require('passport')
 const initializePassport= require('./passport-config');
@@ -7,6 +8,13 @@ const flash= require('express-flash');
 const session= require('express-session');
 const dotenv = require("dotenv");
 const methodOverride= require('method-override')
+const server= require('http').Server(app);
+const io= require('socket.io')(server, {
+  cors: {
+    origin: '*',
+  }
+});
+
 dotenv.config();
 
 const users= [];
@@ -30,6 +38,7 @@ app.use(express.static("public/assets/images"));
 
 app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
+// app.use(cors());
 
 app.use(flash())
 app.use(session({
@@ -82,14 +91,30 @@ app.post("/api/register", async (req, res) => {
   console.log(users)
 });
 
+io.on('connection', socket => {
+  // console.log('new User')
+  // socket.emit('chat-message', 'Hello World')
+  socket.on('send-chat-message', message => {
+    socket.broadcast.emit('chat-message', message)
+  })
+});
+
 // routes
 require("./routes/html-routes.js")(app);
 require("./routes/user-api-routes.js")(app);
 require("./routes/foot-api-routes.js")(app);
 require("./routes/vehicle-api-routes.js")(app);
 
+app.use(function(req, res, next) {
+  res.header("Access-Control-Allow-Origin", "*");
+  res.header("Access-Control-Allow-Headers", "X-Requested-With");
+  res.header("Access-Control-Allow-Headers", "Content-Type");
+  res.header("Access-Control-Allow-Methods", "PUT, GET, POST, DELETE, OPTIONS");
+  next();
+});
+
 db.sequelize.sync().then(function() {
-  app.listen(PORT, function() {
+  server.listen(PORT, function() {
     console.log("Server listening on: http://localhost:" + PORT);
   });
 });

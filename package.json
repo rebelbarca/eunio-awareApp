@@ -37,6 +37,8 @@
     "path": "^0.12.7",
     "require": "^2.4.20",
     "sequelize": "^6.19.0",
+    "socket.io": "^4.5.0",
+    "socket.io-client": "^4.5.0",
     "start": "^5.1.0",
     "util": "^0.12.4",
     "validator": "^13.7.0"
@@ -51,7 +53,6 @@
   "repository": {
     "type": "git",
     "url": "git+https://github.com/rebelbarca/eunio-awareApp.git"
-    
   },
   "author": "Dhani Pozniak",
   "license": "ISC",
