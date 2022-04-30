@@ -60,7 +60,12 @@ app.post("/api/login", passport.authenticate('local', {
 })); 
 
 app.post("/api/landingPage", async (req, res) => {
-  res.redirect('/landingPage')
+  try {
+    res.redirect('/landingPage')
+  } 
+  catch {
+    res.redirect('/profile')
+  }
 }); 
 
 app.post("/api/register", async (req, res) => {
