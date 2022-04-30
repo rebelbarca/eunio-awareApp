@@ -11,7 +11,6 @@ var db = require("../models");
 // Routes
 // =============================================================
 module.exports = function(app) {
-
   // GET route for getting all of the users
   app.get("/api/user", function(req, res) {
     db.User.findAll({
