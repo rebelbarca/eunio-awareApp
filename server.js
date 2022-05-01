@@ -91,11 +91,24 @@ app.post("/api/register", async (req, res) => {
   console.log(users)
 });
 
+const userTags= {}
+
 io.on('connection', socket => {
+  socket.on('new-user', userTag => {
+    userTags[socket.id]= userTag
+    socket.broadcast.emit('user-connected', userTag)
+  })
   // console.log('new User')
   // socket.emit('chat-message', 'Hello World')
   socket.on('send-chat-message', message => {
-    socket.broadcast.emit('chat-message', message)
+    socket.broadcast.emit('chat-message', {
+      message: message,
+      userTag: userTags[socket.id]
+    })
+  })
+  socket.on('disconnect', () => {
+    socket.broadcast.emit('user-disconnected', userTags[socket.id])
+    delete userTags[socket.id]
   })
 });
 
