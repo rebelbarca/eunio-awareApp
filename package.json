@@ -29,13 +29,12 @@
     "passport": "^0.5.2",
     "passport-jwt": "^4.0.0",
     "path": "^0.12.7",
-    "require": "^2.4.20",
+    "require": "^0.4.4",
     "sequelize": "^6.19.0",
     "start": "^5.1.0",
     "util": "^0.12.4",
     "validator": "^13.7.0"
   },
-  "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js"
