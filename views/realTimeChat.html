@@ -20,17 +20,60 @@
     <link rel="stylesheet" type="text/css" href="/assets/css/reset.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.8.0/css/bulma.min.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/style01.css">
     <link rel="stylesheet" type="text/css" href="/assets/css/realChat.css">
     <link rel="stylesheet" type="text/css" href="/assets/css/style.css">
 
 </head>
 
-<body>
-    <div id="message-container"></div>
-    <form id="send-container">
-        <input type="text" id="message-input">
-        <button class="button" type="submit" id="send-button">Send</button>
-    </form>
+<body class="d-flex flex-column h-100">
+    <section class="navBar">
+        <!-- Navigation -->
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark header">
+            <a class="navbar-brand navName" href="/profile">Eunoi-Aware</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
+                aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse"></div>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="/profile"><i class="fab fa fa-home"></i><span
+                                class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="https://github.com/rebelbarca/eunio-awareApp" target='_blank'><i class="fab fa fa-github"></i></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/app">Google Maps</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/realTimeChat">RealTime Chat</a>
+                    </li>  
+                </ul>
+            </div>
+        </nav>
+    </section>
+
+    <section id="mainContent">
+        <div class="row">
+            <div class="col-md-12" id="message-container"></div>
+        </div>
+        
+        <div class="row">
+            <form id="send-container">
+                <input class="col-md-7" type="text" id="message-input">
+                <button class="button col-md-4" type="submit" id="send-button">Send</button>
+            </form>
+        </div>
+    </section>
+    <div class="push"></div>
+
+    <footer class="footer mt-auto py-3">
+        <span class="text-muted">Copyright &#169; 2022 EUNIO-AWARE - All Rights Reserved</span>
+    </footer>
+    
 
     <!-- <script defer src="http://localhost:8080/socket.io/socket.io.js"></script> -->
     <script defer src="https://cdn.socket.io/3.0.5/socket.io.min.js"></script>
