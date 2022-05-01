@@ -8,10 +8,12 @@ var vehicleData;
 var footData;
 
 function initMap() {
-    map = new google.maps.Map(document.getElementById("map"), {
-        center: { lat: -33.865143, lng: 151.209900 },
-        zoom: 15
-    });
+    var options = {
+        zoom: 13,
+        center: { lat: -33.865143, lng: 151.209900 }
+    }
+    
+    var map = new google.maps.Map(document.getElementById("map"), options);
 
     google.maps.event.addListener(map, "click", function (event) {
         var newMark = new google.maps.Marker({
@@ -27,6 +29,7 @@ $(document).ready(function () {
     $(document).on("click", ".compare", function () {
         $("#reload").removeClass('hide');
         $(".dataTitle").removeClass('hide');
+        $("#update").removeClass('hide');
         // var userIndex = $(this.id);
         var userIndex = $(this).attr('id');
         console.log(userIndex);
@@ -43,7 +46,7 @@ $(document).ready(function () {
                     vehicleData.forEach(element => {
                         const dist = getDrivingDistance(element.wgs84_latitude, userData.lat, element.wgs84_longitude, userData.lon);
                         console.log(dist);
-                        if (dist < 4) {
+                        if (dist < 5) {
                             inRangeArray.push(element)
                         }
                     })
@@ -57,7 +60,7 @@ $(document).ready(function () {
                     footData.forEach(element => {
                         dist = getDrivingDistance(element.wgs84_latitude, userData.lat, element.wgs84_longitude, userData.lon);
                         console.log(dist);
-                        if (dist < 3) {
+                        if (dist < 5) {
                             inRangeArray.push(element)
                         }
                     })

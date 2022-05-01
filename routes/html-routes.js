@@ -8,18 +8,49 @@ dotenv.config();
 // =============================================================
 module.exports = function (app) {
 
+  // app.set('viewengine', 'ejs');
 
-  app.get("/", function(req, res) {
-    res.sendFile(path.join(__dirname, "../views/startPage.html"));
+  app.get("/profile", checkAuthenticated, (req, res) => {
+    res.render("index.ejs", { name: req.user.name })
+  });
+
+  app.get("/", checkNotAuthenticated, (req, res) => {
+    res.render("login.ejs")
+  });
+
+  app.get("/register", checkNotAuthenticated, (req, res) => {
+    res.render("register.ejs")
+  });
+
+  app.get("/landingPage", checkAuthenticated, function(req, res) {
+    res.sendFile(path.join(__dirname, "../views/landingPage.html"));
   });
 
   app.get("/favicon.ico", function(req, res) {
     res.sendFile(path.join(__dirname, "../public/assets/images/favicon.ico/favicon.ico"));
   });
 
-  app.get("/app", function(req, res) {
-    res.sendFile(path.join(__dirname, "../views/index.html"));
+  app.get("/app", checkAuthenticated, function(req, res) {
+    res.sendFile(path.join(__dirname, "../views/googleMaps.html"));
   });
+
+  app.get("/realTimeChat", function(req, res) {
+    res.sendFile(path.join(__dirname, "../views/realTimeChat.html"));
+  });
+
+  function checkAuthenticated(req, res, next) {
+    if (req.isAuthenticated()) {
+      return next()
+    }
+    res.redirect('/')
+  }
+
+  function checkNotAuthenticated(req, res, next) {
+    if (req.isAuthenticated()) {
+      return res.redirect('/profile')
+    }
+    next()
+  }
   
   // app.get("/app", function(req, res) {
   //   res.render("map");
