@@ -10,6 +10,7 @@ app.use(express.json());
 const watsonRoutes = require("./routes/api/watson")
 /*Direct requests to /routes/api/watson to Watson routes*/
 app.use("/api/watson/", watsonRoutes);
+
 /*3. start server*/
 const port = process.env.PORT || 5000;
 app.listen(port, () => {
