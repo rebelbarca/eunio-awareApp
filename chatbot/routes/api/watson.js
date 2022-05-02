@@ -10,12 +10,14 @@ const authenticator = new IamAuthenticator({apikey: process.env.WATSON_ASSISTANT
 const assistant = new AssistantV2({
     version: "2021-11-27",
     authenticator: authenticator,
-    url: process.env.wATSON_ASSISTANT_URL,
+    url: process.env.WATSON_ASSISTANT_URL,
 });
 
 /*3. Route to handle session tokens*/
 /*GET api/watson/session*/ 
-router.get("/session", async (req,res) => {try{
+router.get("/session", async (req,res) => {
+    /*If successful*/
+    try{
     const session = await assistant.createSession({
         assistantId: process.env.WATSON_ASSISTANT_ID,
     });
