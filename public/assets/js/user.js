@@ -164,7 +164,7 @@ $(document).ready(function () {
         console.log(newlat);
         console.log(business);
         console.log(type);
-        var string = "Type of Business"
+        var string = "State of Mind"
         if (type === string) {
             var errorField = $(".error");
             errorField.css("display", "block");
@@ -295,7 +295,7 @@ $(document).ready(function () {
     // This function constructs a post's HTML
     function createNewRow(user) {
         var newUserCard = $("<div>").addClass("column");
-        var outerdropdown = $("<div>").addClass("dropdown is-hoverable is-right");
+        var outerdropdown = $("<div>").addClass("dropdown is-hoverable is-left");
         var dropdownTrigger = $("<div>").addClass("dropdown-trigger");
         var dropdownTriggerBtn = $("<button>").addClass("button");
         var dropdownMenu = $("<div>").addClass("dropdown-menu");
@@ -306,7 +306,9 @@ $(document).ready(function () {
         var newTime = $("<p>");
         var deleteBtn = $("<button>").addClass("delete ui button");
         var compareBtn = $("<button>").addClass("compare ui button");
+        var updateBtn = $("<button>").addClass("update ui button");
         var formattedDate = new Date(user.createdAt);
+        var rowEl = $('<div>').addClass('row');
         formattedDate = moment(formattedDate).format("MMMM Do YYYY, h:mm:ss a");
         // var whereTo = $("#whereto");
 
@@ -315,19 +317,24 @@ $(document).ready(function () {
         dropdownMenu.attr("id", "dropdown1");
         dropdownMenu.attr("role", "menu");
         compareBtn.attr("id", user.id);
+        updateBtn.attr("id", user.id);
 
         dropdownTriggerBtn.text(user.id + ". " + user.user.charAt(0).toUpperCase() + user.user.slice(1) + " " + user.businessType.charAt(0).toUpperCase() + user.businessType.slice(1));
         newType.text(user.businessType.charAt(0).toUpperCase() + user.businessType.slice(1) + " ");
         newUser.text("Created by: " + user.user.charAt(0).toUpperCase() + user.user.slice(1));
         newTime.text(formattedDate);
         compareBtn.text("Analyse");
+        updateBtn.text("Update State of Mind");
 
         newType.append(deleteBtn);
         newUserCard.append(newType);
         newUserCard.append(newUser);
         newUserCard.append(newTime);
-        newUserCard.append(compareBtn);
+        newUserCard.append(rowEl);
+        rowEl.append(compareBtn);
         newUserCard.data("user", user);
+        newUserCard.append(rowEl);
+        rowEl.append(updateBtn);
 
         dropdownItem.append(newUserCard);
         dropdownTrigger.append(dropdownTriggerBtn);
@@ -342,7 +349,7 @@ $(document).ready(function () {
     // This function constructs a post's HTML
     function createVehicleInfo(info) {
         var newInfoCard = $("<div>").addClass("column");
-        var outerdropdown = $("<div>").addClass("dropdown is-hoverable is-right");
+        var outerdropdown = $("<div>").addClass("dropdown is-hoverable is-left");
         var dropdownTrigger = $("<div>").addClass("dropdown-trigger");
         var dropdownTriggerBtn = $("<button>").addClass("button");
         var dropdownMenu = $("<div>").addClass("dropdown-menu");
@@ -377,7 +384,7 @@ $(document).ready(function () {
     // This function constructs a post's HTML
     function createFootInfo(info) {
         var newInfoCard = $("<div>").addClass("column");
-        var outerdropdown = $("<div>").addClass("dropdown is-hoverable is-right");
+        var outerdropdown = $("<div>").addClass("dropdown is-hoverable is-left");
         var dropdownTrigger = $("<div>").addClass("dropdown-trigger");
         var dropdownTriggerBtn = $("<button>").addClass("button");
         var dropdownMenu = $("<div>").addClass("dropdown-menu");
@@ -424,7 +431,7 @@ $(document).ready(function () {
         //     partial = " for User #" + id;
         // }
         userContainer.empty();
-        var messageH2 = $("<h2>");
+        var messageH2 = $("<h3>");
         messageH2.css({ "text-align": "center", "margin-top": "50px" });
         messageH2.html("No users yet" + partial + query + ", enter user data in order to get started.");
         userContainer.append(messageH2);

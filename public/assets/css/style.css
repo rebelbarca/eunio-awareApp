@@ -5,6 +5,14 @@
   left: 5%;
 }
 
+.container01 {
+  background-color: linear-gradient(rgb(124, 132, 175), rgb(200, 213, 255));;
+  /* width: 225px; */
+  margin: 0 auto;
+  padding: 10px 30px 10px 30px;
+  max-width: 992px;
+}
+
 .parent {
   height: 100%;
   width: 80%;
@@ -41,12 +49,26 @@ input {
   margin: 10px;
 }
 
-button {
+.articleLink {
+  background:#ffffff;
+  max-width: fit-content;
   cursor: pointer;
   display: inline-block;
   position: relative;
   transition: 0.5s;
   margin: 10px;
+  font-size: 20px;
+  padding: 10px;
+  transition: all 0.5s;
+  border-radius: 10px;
+}
+
+button {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+  margin: 5px;
   font-size: 32px;
   padding: 16px;
   width: 250px;
@@ -98,6 +120,16 @@ h1 {
   font-size: 28px;
 }
 
+h2 {
+  font-family: "Georgia", "Times New Roman", Times, serif;
+  color: #333333;
+  margin-left: 10px;
+  text-align: center;
+  /* padding-top: 20px; */
+  /* padding-bottom: 20px; */
+  font-size: 30px;
+}
+
 h3 {
   font-family: "Georgia", "Times New Roman", Times, serif;
   color: #333333;
@@ -111,8 +143,8 @@ h3 {
 
 h5 {
   font-family: "Georgia", "Times New Roman", Times, serif;
-  color: #ffffff;
-  text-align: left;
+  color: #333333;
+  text-align: justify;
   padding: 10px 20px;
   /* padding-bottom: 20px; */
   font-size: 20px;
