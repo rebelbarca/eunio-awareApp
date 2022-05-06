@@ -48,7 +48,10 @@
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="/realTimeChat">RealTime Chat</a>
-                    </li>  
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/articleAPI">Articles</a>
+                    </li> 
                 </ul>
             </div>
         </nav>
@@ -62,21 +65,21 @@
             <div class="col-md-6">
                 <div class="field">
                     <div class="control">
-                        <input class="input is-info is-rounded" type="text" placeholder="Your Name" id="businessname">
+                        <input class="input is-info is-rounded" type="text" placeholder="Your userTag" id="businessname">
                     </div>
                 </div>
                 <div class="error"><img src="https://cdn.onlinewebfonts.com/svg/img_515233.png" width="20px"><b> Error:</b> Please
-                make sure you've clicked on a location, filled in your name and selected a business type.
+                make sure you've clicked on a location, filled in your userTag and selected a State of Mind.
                 </div>
             </div>
             <div class="col-md-6">
                 <div class="field">
                     <div class="select is-primary" id="typeinput">
                         <select>
-                        <option>State of Mind</option>
-                        <option value="Content">Content</option>
-                        <option value="Anxious">Anxious</option>
-                        <option value="Stressed">Stressed</option>
+                            <option>State of Mind</option>
+                            <option value="Content">Content</option>
+                            <option value="Anxious">Anxious</option>
+                            <option value="Stressed">Stressed</option>
                         </select>
                     </div>
                 </div>
@@ -93,20 +96,21 @@
             <div class="col-md-4">
                 <button class="ui button hide" id="reload">Enter New Search</button>
             </div>
-            <div class="col-md-4">
-                <button class="ui button hide" id="update">Update State of Mind</button>
-            </div>
         </div>
 
                 
         <div class="row">
-            <div class="col-md-3 offset-md-1 userinputtwo">
+            <h3 class="userTitle">User Data</h3>
+            <div class="col-md-12 userinputtwo">
             </div>
-            <div class="col-md-4">
+            
+        </div>
+        <div class="row">
+            <div class="col-md-6">
                 <h3 class="dataTitle hide">Vehicle Traffic Data</h3>
                 <div class="col-md-4 vehicle"></div>
             </div>
-            <div class="col-md-4">
+            <div class="col-md-6">
                 <h3 class="dataTitle hide">Foot Traffic Data</h3>
                 <div class="col-md-4 foot"></div>
             </div>
@@ -127,7 +131,6 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
 
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
     <script src="assets/js/moment.js"></script>

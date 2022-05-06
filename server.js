@@ -1,4 +1,5 @@
 const express= require("express");
+const axios= require('axios');
 const bcrypt= require("bcrypt");
 // const cors= require('cors')
 const app= express();
@@ -17,7 +18,7 @@ const io= require('socket.io')(server, {
 
 dotenv.config();
 
-const users= [];
+const users = [];
 
 initializePassport(
   passport,
@@ -110,6 +111,22 @@ io.on('connection', socket => {
     socket.broadcast.emit('user-disconnected', userTags[socket.id])
     delete userTags[socket.id]
   })
+});
+
+const options = {
+  method: 'GET',
+  // url: 'https://mental-health-info-api.p.rapidapi.com/news',
+  url: 'https://mental-health-info-api.p.rapidapi.com/news/thetimes',
+  headers: {
+    'X-RapidAPI-Host': 'mental-health-info-api.p.rapidapi.com',
+    'X-RapidAPI-Key': '6547e2e41fmsh128d7cf3f2946cfp13d3e2jsnf25e0ab747fc'
+  }
+};
+
+axios.request(options).then(function (response) {
+	// console.log(response.data);
+}).catch(function (error) {
+	console.error(error);
 });
 
 // routes
