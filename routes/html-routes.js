@@ -34,8 +34,17 @@ module.exports = function (app) {
     res.sendFile(path.join(__dirname, "../views/googleMaps.html"));
   });
 
-  app.get("/realTimeChat", function(req, res) {
+  app.get("/realTimeChat", checkAuthenticated, function(req, res) {
     res.sendFile(path.join(__dirname, "../views/realTimeChat.html"));
+  });
+
+  app.get("/articleAPI", checkAuthenticated, function(req, res) {
+    res.render('articleAPI.ejs', { name: req.user.name });
+  });
+
+  app.get("/api/articleAPI", checkAuthenticated, function(req, res) {
+    res.json(req.user);
+    console.log(req.user);
   });
 
   function checkAuthenticated(req, res, next) {

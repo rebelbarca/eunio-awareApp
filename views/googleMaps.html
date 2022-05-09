@@ -24,17 +24,7 @@
     
 </head>
 
-<body class="d-flex flex-column h-100">
-
-    <header class='mainTitle'>
-        <div class="row brandname">
-            <div class="col-sm-6 col-md-6 offset-md-4 navLogo">
-                <a class="navbar-brand" href="/profile"><img src="assets/images/eunio-aware transparentWebsite.png"
-                        alt="Company Logo" class="logoImage"></a>
-            </div>
-        </div>
-    </header>
-
+<body>
     <section class="navBar">
         <!-- Navigation -->
         <nav class="navbar navbar-expand-lg navbar-dark bg-dark header">
@@ -49,36 +39,19 @@
                     <li class="nav-item active">
                         <a class="nav-link" href="/profile"><i class="fab fa fa-home"></i><span
                                 class="sr-only">(current)</span></a>
-                            </li>    
-                            <li class="nav-item dropdown">
-                                <a class="nav-link dropdown-toggle" href="/" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Team Profile</a>
-                                <div class="dropdown-menu" aria labelledby="navbarDropdown">
-                                    <a class="dropdown-item" href="/profile01">Profile</a>
-                                    <a class="dropdown-item" href="/idealJob">Ideal Jobs</a>
-                                </div>
-                            </li>
-                            <li class="nav-item dropdown">
-                                <a class="nav-link dropdown-toggle" href="/" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Industry Data</a>
-                                <div class="dropdown-menu" aria labelledby="navbarDropdown">
-                                    <a class="dropdown-item" href="/industryData">Industry Data</a>
-                                    <a class="dropdown-item" href="/itInterview">IT Interview</a>
-                                    <a class="dropdown-item" href="/itTech">IT Technologies</a>
-                                </div>
-                            </li>
-                            <li class="nav-item dropdown">
-                                <a class="nav-link dropdown-toggle" href="/" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Project Idea</a>
-                                <div class="dropdown-menu" aria labelledby="navbarDropdown">
-                                    <a class="dropdown-item" href="/projectIdea">Project Idea</a>
-                                </div>
-                            </li>
-                            <li class="nav-item dropdown">
-                                <a class="nav-link dropdown-toggle" href="/" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Miscellaneous</a>
-                                <div class="dropdown-menu" aria labelledby="navbarDropdown">
-                                    <a class="dropdown-item" href="/tools">Tools</a>
-                                    <a class="dropdown-item" href="/references">References</a>
-                                    <a class="dropdown-item" href="/reflection">Group Reflection</a>
-                                </div>
-                            </li>    
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="https://github.com/rebelbarca/eunio-awareApp" target='_blank'><i class="fab fa fa-github"></i></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/app">Google Maps</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/realTimeChat">RealTime Chat</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/articleAPI">Articles</a>
+                    </li> 
                 </ul>
             </div>
         </nav>
@@ -92,21 +65,21 @@
             <div class="col-md-6">
                 <div class="field">
                     <div class="control">
-                        <input class="input is-info is-rounded" type="text" placeholder="Your Name" id="businessname">
+                        <input class="input is-info is-rounded" type="text" placeholder="Your userTag" id="businessname">
                     </div>
                 </div>
                 <div class="error"><img src="https://cdn.onlinewebfonts.com/svg/img_515233.png" width="20px"><b> Error:</b> Please
-                make sure you've clicked on a location, filled in your name and selected a business type.
+                make sure you've clicked on a location, filled in your userTag and selected a State of Mind.
                 </div>
             </div>
             <div class="col-md-6">
                 <div class="field">
                     <div class="select is-primary" id="typeinput">
                         <select>
-                        <option>State of Mind</option>
-                        <option value="Content">Content</option>
-                        <option value="Anxious">Anxious</option>
-                        <option value="Stressed">Stressed</option>
+                            <option>State of Mind</option>
+                            <option value="Content">Content</option>
+                            <option value="Anxious">Anxious</option>
+                            <option value="Stressed">Stressed</option>
                         </select>
                     </div>
                 </div>
@@ -123,20 +96,21 @@
             <div class="col-md-4">
                 <button class="ui button hide" id="reload">Enter New Search</button>
             </div>
-            <div class="col-md-4">
-                <button class="ui button hide" id="update">Update State of Mind</button>
-            </div>
         </div>
 
                 
         <div class="row">
-            <div class="col-md-3 offset-md-1 userinputtwo">
+            <h3 class="userTitle">User Data</h3>
+            <div class="col-md-12 userinputtwo">
             </div>
-            <div class="col-md-4">
+            
+        </div>
+        <div class="row">
+            <div class="col-md-6">
                 <h3 class="dataTitle hide">Vehicle Traffic Data</h3>
                 <div class="col-md-4 vehicle"></div>
             </div>
-            <div class="col-md-4">
+            <div class="col-md-6">
                 <h3 class="dataTitle hide">Foot Traffic Data</h3>
                 <div class="col-md-4 foot"></div>
             </div>
@@ -157,7 +131,6 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
 
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
     <script src="assets/js/moment.js"></script>
