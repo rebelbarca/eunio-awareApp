@@ -14,23 +14,36 @@
 </head>
 
 <body>
-    <h1>Login</h1>
-    <% if(messages.error) { %>
-        <%= messages.error %>
-    <% } %>
-    <form action="/api/login" method="POST">
-        <div>
-            <label for="email">Email</label>
-            <input type="email" id="email" name="email" required>
+    <section class="hero is-fullheight is-secondary is-bold">
+        <div class="hero-body">
+            <div class="container01">
+                <h1>Login</h1>
+                <div class="columns v-centered">
+                    <div class='column'>
+                        <% if(messages.error) { %>
+                            <%= messages.error %>
+                        <% } %>
+                        <form action="/api/login" method="POST">
+                            <div>
+                                <label for="email">Email</label>
+                                <input type="email" id="email" name="email" required>
+                            </div>
+                            <div>
+                                <label for="password">Password</label>
+                                <input type="password" id="password" name="password" required>
+                            </div>
+                            <button class='button' type="submit">Login</button>
+                        </form>
+                        <!-- <a href="">Go to Register Page</a> -->
+                        <button class="button registerPage">Go to Register Page</button>
+                    </div>
+                </div>
+            </div>
         </div>
-        <div>
-            <label for="password">Password</label>
-            <input type="password" id="password" name="password" required>
-        </div>
-        <button class='button' type="submit">Login</button>
-    </form>
-
-    <a href="/register">Go to Register Page</a>
+    </div>
+    
+    <script src="https://code.jquery.com/jquery.js"></script>
+    <script src="/assets/js/startpage.js"></script>
 </body>
 
 </html>
