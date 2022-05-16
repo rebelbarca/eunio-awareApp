@@ -11,7 +11,10 @@ module.exports = function (app) {
   // app.set('viewengine', 'ejs');
 
   app.get("/profile", checkAuthenticated, (req, res) => {
-    res.render("index.ejs", { name: req.user.name })
+    res.render("index.ejs", {
+      name: req.user.name,
+      email: req.user.email
+    })
   });
 
   app.get("/", checkNotAuthenticated, (req, res) => {

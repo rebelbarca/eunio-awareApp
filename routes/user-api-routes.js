@@ -62,4 +62,21 @@ module.exports = function(app) {
       res.error(error)
     })
   });
+  
+  // PUT route for updating todos. We can get the updated todo data from req.body
+  app.put("/api/user/:id/update", function(req, res) {
+    // Update takes in an object describing the properties we want to update, and
+    // we use where to describe which objects we want to update
+    console.log(req.body)
+    console.log(req.body.data)
+    db.User.update({
+      businessType: req.body.businessType,
+    }, {
+      where: {
+        id: req.params.id
+      }
+    }).then(function(dbUser) {
+      res.json(dbUser);
+    });
+  });
 };

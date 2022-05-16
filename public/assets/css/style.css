@@ -6,7 +6,7 @@
 }
 
 .container01 {
-  background-color: linear-gradient(rgb(124, 132, 175), rgb(200, 213, 255));;
+  background-color: linear-gradient(rgb(124, 132, 175), rgb(200, 213, 255));
   /* width: 225px; */
   margin: 0 auto;
   padding: 10px 30px 10px 30px;
@@ -94,7 +94,8 @@ button:hover:after {
   right: 10px;
 }
 
-.error {display:none;}
+.error,
+.error02 {display:none;}
 
 .card {
   width: 100%;
