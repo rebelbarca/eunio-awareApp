@@ -1,0 +1,6176 @@
+{
+  "intents": [
+    {
+      "intent": "about_the_book",
+      "examples": [
+        {
+          "text": "In this book"
+        },
+        {
+          "text": "In this edition"
+        },
+        {
+          "text": "In this novel"
+        },
+        {
+          "text": "In this title"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "actor-director_author-or_artist",
+      "examples": [
+        {
+          "text": "They are so good"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "Album_or_Artist",
+      "examples": [
+        {
+          "text": "I listen to (A-Z)(a-z)(0-9)"
+        },
+        {
+          "text": "I listen to (A-Z)(a-z)(0-9) (A-Z)(a-z)(0-9)"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "Book_or_album_or_movie_or_game",
+      "examples": [
+        {
+          "text": "(A-Z)(a-z)(0-9) is a masterpiece!"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "Book_or_movie",
+      "examples": [
+        {
+          "text": "(A-Z)(a-z)(0-9) is the best title"
+        },
+        {
+          "text": "kept me guessing until the end"
+        },
+        {
+          "text": "my favorite title is (A-Z)(a-z)(0-9)"
+        },
+        {
+          "text": "my favourite title is (A-Z)(a-z)(0-9)"
+        },
+        {
+          "text": "so funny"
+        },
+        {
+          "text": "such a great story"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "Bored",
+      "examples": [
+        {
+          "text": "Bored"
+        }
+      ],
+      "description": "Bored"
+    },
+    {
+      "intent": "Button",
+      "examples": [
+        {
+          "text": "Another button"
+        },
+        {
+          "text": "button"
+        },
+        {
+          "text": "I collect buttons"
+        },
+        {
+          "text": "More button"
+        },
+        {
+          "text": "The A button"
+        },
+        {
+          "text": "The B button"
+        },
+        {
+          "text": "The C button"
+        },
+        {
+          "text": "The D button"
+        },
+        {
+          "text": "This button is a mystery....."
+        },
+        {
+          "text": "Yet another button"
+        }
+      ],
+      "description": "Button"
+    },
+    {
+      "intent": "Causes-life_changing_event",
+      "examples": [
+        {
+          "text": "baby"
+        },
+        {
+          "text": "baby on the way"
+        },
+        {
+          "text": "break-up"
+        },
+        {
+          "text": "changes on the way"
+        },
+        {
+          "text": "divorce"
+        },
+        {
+          "text": "I'm pregnant"
+        },
+        {
+          "text": "Marriage"
+        },
+        {
+          "text": "married"
+        },
+        {
+          "text": "moving"
+        },
+        {
+          "text": "new"
+        },
+        {
+          "text": "new baby"
+        },
+        {
+          "text": "new job"
+        },
+        {
+          "text": "new partner"
+        },
+        {
+          "text": "new partner and new stepkids"
+        },
+        {
+          "text": "new stepkids"
+        },
+        {
+          "text": "partner is pregnant"
+        },
+        {
+          "text": "seperation"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "causes-pressure",
+      "examples": [
+        {
+          "text": "I have so many demands"
+        },
+        {
+          "text": "I have so many multiple competing demands"
+        },
+        {
+          "text": "pressure"
+        },
+        {
+          "text": "under pressure"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "cause-uncertain",
+      "examples": [
+        {
+          "text": "broke"
+        },
+        {
+          "text": "budget"
+        },
+        {
+          "text": "finance"
+        },
+        {
+          "text": "finances"
+        },
+        {
+          "text": "I am concerned about my budget"
+        },
+        {
+          "text": "I am worried about my budget"
+        },
+        {
+          "text": "I have a sick child"
+        },
+        {
+          "text": "I have a sick kid"
+        },
+        {
+          "text": "I have ill-helath"
+        },
+        {
+          "text": "I just don't know any more"
+        },
+        {
+          "text": "I may end up homeless"
+        },
+        {
+          "text": "I'm not enough"
+        },
+        {
+          "text": "I'm sick"
+        },
+        {
+          "text": "I'm tired"
+        },
+        {
+          "text": "kid on the way"
+        },
+        {
+          "text": "money"
+        },
+        {
+          "text": "My child is sick"
+        },
+        {
+          "text": "My kid is sick"
+        },
+        {
+          "text": "My lease is ending"
+        },
+        {
+          "text": "My partner is sick"
+        },
+        {
+          "text": "Not enough money"
+        },
+        {
+          "text": "nothing is going right"
+        },
+        {
+          "text": "One of my children is sick"
+        },
+        {
+          "text": "One of my kids is isck"
+        },
+        {
+          "text": "times are tough"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "cause-work_life_balance",
+      "examples": [
+        {
+          "text": "cause-work_life_balance"
+        },
+        {
+          "text": "I feel overwhelmed"
+        },
+        {
+          "text": "I'm exhausted"
+        },
+        {
+          "text": "I'm so exhausted"
+        },
+        {
+          "text": "I'm so time poor"
+        },
+        {
+          "text": "I'm so tired"
+        },
+        {
+          "text": "I'm tired"
+        },
+        {
+          "text": "I never have time"
+        },
+        {
+          "text": "overwhelmed"
+        },
+        {
+          "text": "time poor"
+        }
+      ],
+      "description": "cause-work_life_balance"
+    },
+    {
+      "intent": "codeFooty",
+      "examples": [
+        {
+          "text": "code-footy"
+        },
+        {
+          "text": "codeFooty"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "codeMoto",
+      "examples": [
+        {
+          "text": "codeMoto"
+        },
+        {
+          "text": "code-motorsport"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "doingWell",
+      "examples": [
+        {
+          "text": "doingWell"
+        },
+        {
+          "text": "Great! I've won nearly every game this season!"
+        },
+        {
+          "text": "Great! I've won nearly every match this season!"
+        },
+        {
+          "text": "Great! I've won nearly every session this season!"
+        },
+        {
+          "text": "Great! I've won nearly every tournament this season!"
+        },
+        {
+          "text": "I am yet to lose"
+        },
+        {
+          "text": "I haven't lost yet"
+        },
+        {
+          "text": "I'm doing ok"
+        },
+        {
+          "text": "I'm doing OK so far"
+        },
+        {
+          "text": "I've won nearly every game this season!"
+        },
+        {
+          "text": "So-so"
+        },
+        {
+          "text": "We lost, but we have a good ladder position"
+        },
+        {
+          "text": "We won our last game, and their position on the ladder is (A-Z)(a-z)(0-9)"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "family",
+      "examples": [
+        {
+          "text": "family"
+        },
+        {
+          "text": "I have a family"
+        },
+        {
+          "text": "I have children"
+        },
+        {
+          "text": "I have kids"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "family-about-negative",
+      "examples": [
+        {
+          "text": "stressful"
+        },
+        {
+          "text": "they are stressing me out"
+        },
+        {
+          "text": "they take up all my time"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "family-about-positive",
+      "examples": [
+        {
+          "text": "Everyone is 100%"
+        },
+        {
+          "text": "Everyone is great"
+        },
+        {
+          "text": "Everyone is happy"
+        }
+      ],
+      "description": "Everyone is good"
+    },
+    {
+      "intent": "fav-album-answer",
+      "examples": [
+        {
+          "text": "(A-Z)(a-z)(0-9) is the best album"
+        },
+        {
+          "text": "(A-Z)(a-z)(0-9) is the best album ever"
+        },
+        {
+          "text": "(A-Z)(a-z)(0-9) is the greatest album"
+        },
+        {
+          "text": "(A-Z)(a-z)(0-9) is the greatest album ever"
+        },
+        {
+          "text": "my favorite album is"
+        },
+        {
+          "text": "my favourite album is"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "fav-Author",
+      "examples": [
+        {
+          "text": "(A-Z)(a-z)(0-9) is the author"
+        },
+        {
+          "text": "(A-Z)(a-z)(0-9) is the best author"
+        },
+        {
+          "text": "(A-Z)(a-z)(0-9) is the greatest author"
+        },
+        {
+          "text": "(A-Z)(a-z)(0-9) is the greatest author ever"
+        },
+        {
+          "text": "(A-Z)(a-z)(0-9) is the greatest authorr"
+        },
+        {
+          "text": "(A-Z)(a-z)(0-9) wrote the book ever"
+        },
+        {
+          "text": "my favourite author is"
+        },
+        {
+          "text": "my favourite author is (A-Z)(a-z)(0-9)"
+        },
+        {
+          "text": "They really know how to write"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "fav-book-genre",
+      "examples": [
+        {
+          "text": "fav-book-genre"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "fav-director-or-actor",
+      "examples": [
+        {
+          "text": "(A-Z)(a-z)(0-9) (A-Z)(a-z)(0-9) really know how to act/direct"
+        },
+        {
+          "text": "(A-Z)(a-z)(0-9) is the best director/actor"
+        },
+        {
+          "text": "(A-Z)(a-z)(0-9) is the greatest director/actor ever"
+        },
+        {
+          "text": "my favourite director/actor is (A-Z)(a-z)(0-9)"
+        }
+      ],
+      "description": "fav-director-or-actor"
+    },
+    {
+      "intent": "FavGame",
+      "examples": [
+        {
+          "text": "(A-Z)(a-z)(0-9) is the best PC/Console game"
+        },
+        {
+          "text": "(A-Z)(a-z)(0-9) is the greatest PC/Console game ever"
+        },
+        {
+          "text": "(A-Z)(a-z)(0-9) is the PC/Console greatest game"
+        },
+        {
+          "text": "FavGame"
+        },
+        {
+          "text": "My favorite PC/Console game is"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "FavMusicArtist_Band-Answer",
+      "examples": [
+        {
+          "text": "(A-Z)(a-z)(0-9) are the greatest band"
+        },
+        {
+          "text": "(A-Z)(a-z)(0-9) is the greatest artist"
+        },
+        {
+          "text": "My fav band is (A-Z)(a-z)(0-9) (A-Z)(a-z)(0-9) (A-Z)(a-z)(0-9)"
+        },
+        {
+          "text": "My favorite artist is"
+        },
+        {
+          "text": "My favorite artist is (A-Z)(a-z)(0-9) (A-Z)(a-z)(0-9) (A-Z)(a-z)(0-9)"
+        },
+        {
+          "text": "My favorite band is"
+        },
+        {
+          "text": "My favorite band is (A-Z)(a-z)(0-9) (A-Z)(a-z)(0-9) (A-Z)(a-z)(0-9)"
+        },
+        {
+          "text": "My favourite artist is"
+        },
+        {
+          "text": "My favourite artist is (A-Z)(a-z)(0-9) (A-Z)(a-z)(0-9) (A-Z)(a-z)(0-9)"
+        },
+        {
+          "text": "My favourite band is"
+        },
+        {
+          "text": "My favourite band is (A-Z)(a-z)(0-9) (A-Z)(a-z)(0-9) (A-Z)(a-z)(0-9)"
+        }
+      ],
+      "description": "Favourite music artist/band"
+    },
+    {
+      "intent": "GamesAreFun",
+      "examples": [],
+      "description": ""
+    },
+    {
+      "intent": "General_About_You",
+      "examples": [
+        {
+          "text": "How old are you?"
+        },
+        {
+          "text": "Thanks for entering your age"
+        },
+        {
+          "text": "Thanks for entering your gender"
+        }
+      ],
+      "description": "Request generic personal attributes."
+    },
+    {
+      "intent": "General_Answers",
+      "examples": [
+        {
+          "text": "General_Answers"
+        },
+        {
+          "text": "Thanks for entering your favourite mg"
+        }
+      ],
+      "description": "General_Answers"
+    },
+    {
+      "intent": "General_Ending",
+      "examples": [
+        {
+          "text": "Bye bye"
+        },
+        {
+          "text": "Bye now"
+        },
+        {
+          "text": "Catch you later"
+        },
+        {
+          "text": "Cya later"
+        },
+        {
+          "text": "Ending this session"
+        },
+        {
+          "text": "End trial"
+        },
+        {
+          "text": "Finished now, good bye"
+        },
+        {
+          "text": "Get lost"
+        },
+        {
+          "text": "Go away"
+        },
+        {
+          "text": "Going now"
+        },
+        {
+          "text": "Good. bye."
+        },
+        {
+          "text": "Goodbye"
+        },
+        {
+          "text": "Go off"
+        },
+        {
+          "text": "Have a nice day?"
+        },
+        {
+          "text": "Hey bot go away"
+        },
+        {
+          "text": "I am leaving"
+        },
+        {
+          "text": "I am out of here"
+        },
+        {
+          "text": "I d like to stop doing this"
+        },
+        {
+          "text": "I have got to go"
+        },
+        {
+          "text": "I'm done"
+        },
+        {
+          "text": "Im done"
+        },
+        {
+          "text": "Im good thank you"
+        },
+        {
+          "text": "I'm leaving now"
+        },
+        {
+          "text": "It was nice chatting with you"
+        },
+        {
+          "text": "I want to quit"
+        },
+        {
+          "text": "Ok goodbye"
+        },
+        {
+          "text": "See you"
+        },
+        {
+          "text": "See you later"
+        },
+        {
+          "text": "Shut up"
+        },
+        {
+          "text": "Stop doing this"
+        },
+        {
+          "text": "Stop talking to me"
+        },
+        {
+          "text": "Thanks, bye!"
+        },
+        {
+          "text": "Thanks very much, bye!"
+        },
+        {
+          "text": "Thank you for your time"
+        },
+        {
+          "text": "That is all"
+        },
+        {
+          "text": "That's everything"
+        },
+        {
+          "text": "Time to go"
+        }
+      ],
+      "description": "End the conversation."
+    },
+    {
+      "intent": "General_Greetings",
+      "examples": [
+        {
+          "text": "Good day"
+        },
+        {
+          "text": "Good evening"
+        },
+        {
+          "text": "Good morning"
+        },
+        {
+          "text": "Good to see you"
+        },
+        {
+          "text": "Greetings"
+        },
+        {
+          "text": "Have you been well?"
+        },
+        {
+          "text": "Hello"
+        },
+        {
+          "text": "Hello Agent"
+        },
+        {
+          "text": "Hello I am looking for some help here"
+        },
+        {
+          "text": "Hey how are you doing"
+        },
+        {
+          "text": "Hey there"
+        },
+        {
+          "text": "Hey there all"
+        },
+        {
+          "text": "Hey twin"
+        },
+        {
+          "text": "Hey you"
+        },
+        {
+          "text": "hi"
+        },
+        {
+          "text": "Hi advisor"
+        },
+        {
+          "text": "Hi there"
+        },
+        {
+          "text": "hiya"
+        },
+        {
+          "text": "How are things going?"
+        },
+        {
+          "text": "How are you today?"
+        },
+        {
+          "text": "How have you been?"
+        },
+        {
+          "text": "How is it going?"
+        },
+        {
+          "text": "How r u?"
+        },
+        {
+          "text": "Looking good eve"
+        },
+        {
+          "text": "Ok take me back"
+        },
+        {
+          "text": "What's new?"
+        },
+        {
+          "text": "What's up?"
+        },
+        {
+          "text": "Who is this?"
+        },
+        {
+          "text": "yo"
+        },
+        {
+          "text": "You there"
+        }
+      ],
+      "description": "Greetings"
+    },
+    {
+      "intent": "General_Human_or_Bot",
+      "examples": [
+        {
+          "text": "Am I chatting with a human?"
+        },
+        {
+          "text": "Am I talking to a Bot?"
+        },
+        {
+          "text": "Am I talking to a person or am I talking to an AI?"
+        },
+        {
+          "text": "Am I talking to Watson?"
+        },
+        {
+          "text": "Are you a human or a bot?"
+        },
+        {
+          "text": "Are you a robot?"
+        },
+        {
+          "text": "Are you even real?"
+        },
+        {
+          "text": "Are you human?"
+        },
+        {
+          "text": "Are you real?"
+        },
+        {
+          "text": "do you do housekeeping"
+        },
+        {
+          "text": "do you play sport"
+        },
+        {
+          "text": "do you play video games"
+        },
+        {
+          "text": "How can you prove you are a human?"
+        },
+        {
+          "text": "Is this a computer?"
+        },
+        {
+          "text": "Tell me, are you a human or no?"
+        },
+        {
+          "text": "what do you like to read?"
+        },
+        {
+          "text": "What is your favourite band?"
+        },
+        {
+          "text": "what movies do you like"
+        },
+        {
+          "text": "who is your favourite author"
+        }
+      ],
+      "description": "Ask if speaking to a human or a bot."
+    },
+    {
+      "intent": "General_Jokes",
+      "examples": [
+        {
+          "text": "Another joke"
+        },
+        {
+          "text": "Are there jokes?"
+        },
+        {
+          "text": "Can you tell a joke?"
+        },
+        {
+          "text": "Can you tell me a joke?"
+        },
+        {
+          "text": "Do you have a joke?"
+        },
+        {
+          "text": "Do you have humor?"
+        },
+        {
+          "text": "Do you like fun?"
+        },
+        {
+          "text": "Do you like humor?"
+        },
+        {
+          "text": "I am getting bored"
+        },
+        {
+          "text": "I'm bored"
+        },
+        {
+          "text": "I want a joke"
+        },
+        {
+          "text": "One more joke"
+        },
+        {
+          "text": "Surprise me with something hilarious"
+        },
+        {
+          "text": "Tell me a joke"
+        },
+        {
+          "text": "Tell me something funny"
+        },
+        {
+          "text": "What do you do for fun?"
+        },
+        {
+          "text": "What is your favorite joke?"
+        }
+      ],
+      "description": "Request a joke."
+    },
+    {
+      "intent": "genre",
+      "examples": [
+        {
+          "text": "genre"
+        },
+        {
+          "text": "type"
+        }
+      ],
+      "description": "genre"
+    },
+    {
+      "intent": "Goodbye",
+      "examples": [
+        {
+          "text": "arrivederci"
+        },
+        {
+          "text": "bye"
+        },
+        {
+          "text": "ciao"
+        },
+        {
+          "text": "good bye"
+        },
+        {
+          "text": "see ya"
+        },
+        {
+          "text": "so long"
+        }
+      ],
+      "description": "Good byes"
+    },
+    {
+      "intent": "Great",
+      "examples": [
+        {
+          "text": "Fine"
+        },
+        {
+          "text": "Good"
+        },
+        {
+          "text": "Great"
+        },
+        {
+          "text": "OK"
+        }
+      ],
+      "description": "Great"
+    },
+    {
+      "intent": "Help",
+      "examples": [
+        {
+          "text": "can you assist me"
+        },
+        {
+          "text": "can you help"
+        },
+        {
+          "text": "help"
+        },
+        {
+          "text": "help me"
+        },
+        {
+          "text": "help me decide"
+        },
+        {
+          "text": "i need assistance"
+        },
+        {
+          "text": "what can i do"
+        },
+        {
+          "text": "what can i say"
+        }
+      ],
+      "description": "Ask for help"
+    },
+    {
+      "intent": "Hobbies-Intro",
+      "examples": [
+        {
+          "text": "Hobbies-Intro"
+        }
+      ],
+      "description": "Hobbies-Intro"
+    },
+    {
+      "intent": "industry",
+      "examples": [
+        {
+          "text": "I have a small business"
+        },
+        {
+          "text": "I’m a (A-Z)(a-z)(0-9)"
+        },
+        {
+          "text": "I'm a (A-Z)(a-z)(0-9) (A-Z)(a-z)(0-9)"
+        },
+        {
+          "text": "I’m a (A-Z)(a-z)(0-9) by trade"
+        },
+        {
+          "text": "I’m a (A-Z)(a-z)(0-9)ist"
+        },
+        {
+          "text": "I'm an"
+        },
+        {
+          "text": "I'm an actor"
+        },
+        {
+          "text": "I'm an architecht"
+        },
+        {
+          "text": "I'm an AV technician"
+        },
+        {
+          "text": "I'm an (A-Z)(a-z)(0-9)"
+        },
+        {
+          "text": "I'm a teacher"
+        },
+        {
+          "text": "I'm a technician"
+        },
+        {
+          "text": "I'm a zoologist"
+        },
+        {
+          "text": "I'm in IT"
+        },
+        {
+          "text": "I work as a zoologist"
+        },
+        {
+          "text": "I work in (A-Z)(a-z)(0-9)"
+        },
+        {
+          "text": "My job is (A-Z)(a-z)(0-9)"
+        }
+      ],
+      "description": "industry"
+    },
+    {
+      "intent": "ladder",
+      "examples": [
+        {
+          "text": "ladder"
+        },
+        {
+          "text": "ladder position"
+        },
+        {
+          "text": "leaderboard"
+        },
+        {
+          "text": "leaderboard position"
+        },
+        {
+          "text": "Scoreboard"
+        },
+        {
+          "text": "Scoreboard position"
+        },
+        {
+          "text": "tallyboard"
+        },
+        {
+          "text": "tallyboard position"
+        },
+        {
+          "text": "They are (0-9) on the ladder."
+        },
+        {
+          "text": "They are (0-9) on the leaderboard"
+        },
+        {
+          "text": "They are (0-9) on the scoreboard."
+        },
+        {
+          "text": "They are (0-9) on the tallyboard."
+        },
+        {
+          "text": "They are are around the middle of the ladder"
+        },
+        {
+          "text": "They are are around the middle of the leaderboard"
+        },
+        {
+          "text": "They are are around the middle of the scoreboard"
+        },
+        {
+          "text": "They are are around the middle of the tallyboard"
+        },
+        {
+          "text": "They are at the bottom of the ladder"
+        },
+        {
+          "text": "They are at the bottom of the leaderboard"
+        },
+        {
+          "text": "They are at the bottom of the scoreboard"
+        },
+        {
+          "text": "They are at the bottom of the tallyboard"
+        },
+        {
+          "text": "They are at the top of the ladder"
+        },
+        {
+          "text": "They are at the top of the leaderboard"
+        },
+        {
+          "text": "They are at the top of the scoreboard"
+        },
+        {
+          "text": "They are at the top of the tallyboard"
+        },
+        {
+          "text": "They are near the bottom of the ladder"
+        },
+        {
+          "text": "They are near the bottom of the leaderboard"
+        },
+        {
+          "text": "They are near the bottom of the scoreboard"
+        },
+        {
+          "text": "They are near the bottom of the tallyboard"
+        },
+        {
+          "text": "They are near the top of the ladder"
+        },
+        {
+          "text": "They are near the top of the leaderboard"
+        },
+        {
+          "text": "They are near the top of the scoreboard"
+        },
+        {
+          "text": "They are near the top of the tallyboard"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "like",
+      "examples": [
+        {
+          "text": "(A-Z)(a-z)(0-9) are amazing!"
+        },
+        {
+          "text": "(A-Z)(a-z)(0-9) are so good"
+        },
+        {
+          "text": "(A-Z)(a-z)(0-9) are sweet!"
+        },
+        {
+          "text": "(A-Z)(a-z)(0-9) has so much talent"
+        },
+        {
+          "text": "(A-Z)(a-z)(0-9) is a legend"
+        },
+        {
+          "text": "(A-Z)(a-z)(0-9) is amazing!"
+        },
+        {
+          "text": "I admire"
+        },
+        {
+          "text": "I like"
+        },
+        {
+          "text": "I like *"
+        },
+        {
+          "text": "I like (A-Z)(a-z)(0-9)"
+        },
+        {
+          "text": "I like (A-Z)(a-z)(0-9) (A-Z)(a-z)(0-9)"
+        },
+        {
+          "text": "I like bandname"
+        },
+        {
+          "text": "I love"
+        },
+        {
+          "text": "I love (A-Z)(a-z)(0-9)"
+        },
+        {
+          "text": "I'm a fan of"
+        },
+        {
+          "text": "I'm a fan of (A-Z)(a-z)(0-9)"
+        },
+        {
+          "text": "I'm a huge fan of (A-Z)(a-z)(0-9)"
+        },
+        {
+          "text": "My favorite is"
+        },
+        {
+          "text": "My favourite is"
+        },
+        {
+          "text": "They are so good"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "Lonely",
+      "examples": [
+        {
+          "text": "All alone"
+        },
+        {
+          "text": "All by myself, and I hate it."
+        },
+        {
+          "text": "Alone"
+        },
+        {
+          "text": "I feel lonely"
+        },
+        {
+          "text": "I’m lonely"
+        },
+        {
+          "text": "Lonely"
+        }
+      ],
+      "description": "Lonely"
+    },
+    {
+      "intent": "more-chat",
+      "examples": [
+        {
+          "text": "more chat"
+        },
+        {
+          "text": "more-chat"
+        },
+        {
+          "text": "yes-more chat"
+        }
+      ],
+      "description": "more-chat"
+    },
+    {
+      "intent": "Movies",
+      "examples": [
+        {
+          "text": "Films"
+        },
+        {
+          "text": "Movies"
+        },
+        {
+          "text": "Pictures"
+        }
+      ],
+      "description": "Movies"
+    },
+    {
+      "intent": "Music",
+      "examples": [
+        {
+          "text": "Music"
+        }
+      ],
+      "description": "Music"
+    },
+    {
+      "intent": "MusicIsLife",
+      "examples": [
+        {
+          "text": "MusicIsLife"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "name",
+      "examples": [
+        {
+          "text": "Adam"
+        },
+        {
+          "text": "Adam Johns"
+        },
+        {
+          "text": "(A-Z)(a-z)(0-9)"
+        },
+        {
+          "text": "(A-Z)(a-z)(0-9) (A-Z)(a-z)(0-9)"
+        },
+        {
+          "text": "David"
+        },
+        {
+          "text": "David Jones"
+        },
+        {
+          "text": "first"
+        },
+        {
+          "text": "first second"
+        },
+        {
+          "text": "Judas Priest"
+        },
+        {
+          "text": "Megadeath"
+        },
+        {
+          "text": "Tupac"
+        },
+        {
+          "text": "Tupac Shakur"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "No-Exercise",
+      "examples": [
+        {
+          "text": "No-Exercise"
+        }
+      ],
+      "description": "No-Exercise"
+    },
+    {
+      "intent": "no-falbum",
+      "examples": [
+        {
+          "text": "no-falbum"
+        }
+      ],
+      "description": "no-falbum"
+    },
+    {
+      "intent": "no-FavAth_Team",
+      "examples": [
+        {
+          "text": "no-FavAth_Team"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "no-Fav_Author",
+      "examples": [
+        {
+          "text": "no-Fav_Author"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "no-FavGame",
+      "examples": [
+        {
+          "text": "I don’t have one"
+        },
+        {
+          "text": "no-FavGame"
+        },
+        {
+          "text": "Not really"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "no-fband",
+      "examples": [
+        {
+          "text": "no-fband"
+        }
+      ],
+      "description": "no-fband"
+    },
+    {
+      "intent": "no-f-dir_act",
+      "examples": [
+        {
+          "text": "no-f-dir_act"
+        }
+      ],
+      "description": "no-f-dir_act"
+    },
+    {
+      "intent": "no-fmovie",
+      "examples": [
+        {
+          "text": "no-fmovie"
+        }
+      ],
+      "description": "no-fmovie"
+    },
+    {
+      "intent": "no-f-title",
+      "examples": [
+        {
+          "text": "no-f-title"
+        },
+        {
+          "text": "Now THAT is a great book!"
+        },
+        {
+          "text": "That is an amazing title"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "no-playLive",
+      "examples": [
+        {
+          "text": "no-playLive"
+        }
+      ],
+      "description": "no-playLive"
+    },
+    {
+      "intent": "no-PlaySport",
+      "examples": [
+        {
+          "text": "no-PlaySport"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "no-Team",
+      "examples": [
+        {
+          "text": "no-Team"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "NotSoWell",
+      "examples": [
+        {
+          "text": "Haven't won"
+        },
+        {
+          "text": "Haven't won yet"
+        },
+        {
+          "text": "I am yet to win"
+        },
+        {
+          "text": "I keep loosing"
+        },
+        {
+          "text": "I keep loosing. But I have fun!"
+        },
+        {
+          "text": "NotSoWell"
+        },
+        {
+          "text": "We did not win our last game, and our position on the ladder is (A-Z)(a-z)(0-9)"
+        },
+        {
+          "text": "We lost our last game, and our position on the ladder is (A-Z)(a-z)(0-9)"
+        },
+        {
+          "text": "We won, but it won’t save our ladder position"
+        },
+        {
+          "text": "We won, but our ladder position is still low (0-9)"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "PCGames",
+      "examples": [
+        {
+          "text": "Computer Games"
+        },
+        {
+          "text": "Console Games"
+        },
+        {
+          "text": "PC Games"
+        },
+        {
+          "text": "Video Games"
+        }
+      ],
+      "description": "PC Games"
+    },
+    {
+      "intent": "PlayingRightNow",
+      "examples": [
+        {
+          "text": "I’m playing (A-Z)(a-z)(0-9)"
+        },
+        {
+          "text": "PlayingRightNow"
+        },
+        {
+          "text": "Right Now I'm Playing (A-Z)(a-z)(0-9)"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "PlayProgress",
+      "examples": [
+        {
+          "text": "Currently, I’m in (A-Z)(0-9)(a-z)"
+        },
+        {
+          "text": "I’m at (A-Z)(a-z)(0-9)"
+        },
+        {
+          "text": "PlayProgress"
+        },
+        {
+          "text": "The game doesn't have levels"
+        },
+        {
+          "text": "This is a card game"
+        },
+        {
+          "text": "This is a casino based game"
+        },
+        {
+          "text": "This is a casino type game"
+        },
+        {
+          "text": "This is a casual game"
+        },
+        {
+          "text": "This is a puzzle game"
+        },
+        {
+          "text": "This is a sports-based game"
+        },
+        {
+          "text": "This is a sports game"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "random",
+      "examples": [
+        {
+          "text": "I do random things"
+        }
+      ],
+      "description": "I do random things"
+    },
+    {
+      "intent": "Reading",
+      "examples": [
+        {
+          "text": "Reading"
+        },
+        {
+          "text": "Reading books"
+        },
+        {
+          "text": "Reading graphic novels"
+        }
+      ],
+      "description": "Reading"
+    },
+    {
+      "intent": "retired",
+      "examples": [
+        {
+          "text": "I’m retired"
+        }
+      ],
+      "description": "I’m retired"
+    },
+    {
+      "intent": "sport",
+      "examples": [
+        {
+          "text": "Sport"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "SportIsGreat",
+      "examples": [
+        {
+          "text": "SportIsGreat"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "stress-cause",
+      "examples": [
+        {
+          "text": "stress-cause"
+        }
+      ],
+      "description": "stress-cause"
+    },
+    {
+      "intent": "stressCauses",
+      "examples": [
+        {
+          "text": "stressCauses"
+        }
+      ],
+      "description": "stressCauses"
+    },
+    {
+      "intent": "Stressed",
+      "examples": [
+        {
+          "text": "I’m stressed"
+        },
+        {
+          "text": "I’m stressed out"
+        },
+        {
+          "text": "I’m stressed today"
+        },
+        {
+          "text": "Stressed"
+        }
+      ],
+      "description": "Stressed"
+    },
+    {
+      "intent": "stressedGone",
+      "examples": [],
+      "description": "stressedGone"
+    },
+    {
+      "intent": "study",
+      "examples": [
+        {
+          "text": "study"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "study-what",
+      "examples": [
+        {
+          "text": "I'm an postgraduate student"
+        },
+        {
+          "text": "I'm an undergraduate student"
+        },
+        {
+          "text": "I'm a student"
+        },
+        {
+          "text": "I'm completing a Bachelor of (A-Z)(a-z)(0-9)"
+        },
+        {
+          "text": "I'm completing a Bachelor of (A-Z)(a-z)(0-9) at (A-Z)(a-z)(0-9)"
+        },
+        {
+          "text": "I'm completing a Doctoral of (A-Z)(a-z)(0-9) at (A-Z)(a-z)(0-9)"
+        },
+        {
+          "text": "I'm completing a Masters degree in (A-Z)(a-z)(0-9) at (A-Z)(a-z)(0-9)"
+        },
+        {
+          "text": "I'm completing a PhD (A-Z)(a-z)(0-9) at (A-Z)(a-z)(0-9)"
+        },
+        {
+          "text": "I'm doing a diploma in (A-Z)(a-z) at Tafe"
+        },
+        {
+          "text": "I'm doing ad PhD"
+        },
+        {
+          "text": "I'm doing a masters degree"
+        },
+        {
+          "text": "I'm doing an Advanced Diploma in (A-Z)(a-z) at Tafe"
+        },
+        {
+          "text": "I'm doing Certivicate (0-9) in (A-Z)(a-z) at Tafe"
+        },
+        {
+          "text": "I'm doing Certivicate III in (A-Z)(a-z) at Tafe"
+        },
+        {
+          "text": "I'm doing Certivicate II in (A-Z)(a-z) at Tafe"
+        },
+        {
+          "text": "I'm doing Certivicate I in (A-Z)(a-z) at Tafe"
+        },
+        {
+          "text": "I'm doing Certivicate IV in (A-Z)(a-z) at Tafe"
+        },
+        {
+          "text": "I'm studying a masters degree"
+        },
+        {
+          "text": "I'm studying at (A-Z)(a-z)(0-9)"
+        },
+        {
+          "text": "I'm studying for a PhD"
+        },
+        {
+          "text": "student"
+        },
+        {
+          "text": "study"
+        }
+      ],
+      "description": "study"
+    },
+    {
+      "intent": "TeamAns",
+      "examples": [
+        {
+          "text": "My team is"
+        },
+        {
+          "text": "My team is (A-Z)(a-z)(0-9)"
+        },
+        {
+          "text": "My team’s name is"
+        },
+        {
+          "text": "My team’s name is (A-Z)(a-z)(0-9)"
+        },
+        {
+          "text": "TeamAns"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "TeamName",
+      "examples": [
+        {
+          "text": "My team is"
+        },
+        {
+          "text": "My team is (A-Z)(a-z)(0-9)"
+        },
+        {
+          "text": "My team’s name is"
+        },
+        {
+          "text": "My team’s name is (A-Z)(a-z)(0-9)"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "test",
+      "examples": [
+        {
+          "text": "test"
+        }
+      ],
+      "description": "test"
+    },
+    {
+      "intent": "Thanks",
+      "examples": [
+        {
+          "text": "i appreciate it"
+        },
+        {
+          "text": "many thanks"
+        },
+        {
+          "text": "much appreciated"
+        },
+        {
+          "text": "thanks"
+        },
+        {
+          "text": "thank you"
+        },
+        {
+          "text": "thank you very much"
+        },
+        {
+          "text": "that's nice of you"
+        },
+        {
+          "text": "thx"
+        }
+      ],
+      "description": "Thanks"
+    },
+    {
+      "intent": "theWorstGame",
+      "examples": [],
+      "description": ""
+    },
+    {
+      "intent": "title-fav-movie",
+      "examples": [
+        {
+          "text": "(A-Z)(a-z)(0-9) is the best movie"
+        },
+        {
+          "text": "A-Z)(a-z)(0-9) is the best movie ever"
+        },
+        {
+          "text": "(A-Z)(a-z)(0-9) is the greatest movie"
+        },
+        {
+          "text": "(A-Z)(a-z)(0-9) is the greatest movie ever"
+        },
+        {
+          "text": "I just like the movie"
+        },
+        {
+          "text": "It contains some great acting"
+        },
+        {
+          "text": "It contains some great scenes."
+        },
+        {
+          "text": "my favourite movie is"
+        },
+        {
+          "text": "the work despite the budget is amazing"
+        }
+      ],
+      "description": "title"
+    },
+    {
+      "intent": "typeCricket",
+      "examples": [
+        {
+          "text": "code-cricket"
+        },
+        {
+          "text": "type-cricket"
+        },
+        {
+          "text": "typeCricket"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "unemployed",
+      "examples": [
+        {
+          "text": "on the dole"
+        },
+        {
+          "text": "underemployed"
+        },
+        {
+          "text": "unemployed"
+        }
+      ],
+      "description": "unemployed"
+    },
+    {
+      "intent": "volunteer",
+      "examples": [
+        {
+          "text": "Volunteer"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "volunteer-about",
+      "examples": [
+        {
+          "text": "I’m doing x at y"
+        }
+      ],
+      "description": "volunteer"
+    },
+    {
+      "intent": "work",
+      "examples": [
+        {
+          "text": "work"
+        },
+        {
+          "text": "working"
+        }
+      ],
+      "description": "work"
+    },
+    {
+      "intent": "Work-llife-balance",
+      "examples": [
+        {
+          "text": "no time"
+        },
+        {
+          "text": "overwhelmed"
+        },
+        {
+          "text": "running out of time"
+        },
+        {
+          "text": "time poor"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "WorstGameEver",
+      "examples": [
+        {
+          "text": "The worst game is"
+        },
+        {
+          "text": "Worst game ever"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "Yes-Exercise",
+      "examples": [
+        {
+          "text": "Yes-Exercise"
+        }
+      ],
+      "description": "Yes-Exercise"
+    },
+    {
+      "intent": "yes-falbum",
+      "examples": [
+        {
+          "text": "yes-falbum"
+        }
+      ],
+      "description": "yes-falbum"
+    },
+    {
+      "intent": "yes-FavAth_Team",
+      "examples": [
+        {
+          "text": "yes-FavAth_Team"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "yes-Fav_Author",
+      "examples": [
+        {
+          "text": "yes-Fav_Author"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "yes-FavGame",
+      "examples": [
+        {
+          "text": "yes-FavGame"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "yes-FavTeam_Ath-Answer",
+      "examples": [
+        {
+          "text": "(A-Z)(az)(0-9) has broken so many records"
+        },
+        {
+          "text": "(A-Z)(a-z)(0-9) is a champion"
+        },
+        {
+          "text": "(A-Z)(a-z)(0-9) is a star"
+        },
+        {
+          "text": "I barrack for (A-Z)(a-z)(0-9)"
+        },
+        {
+          "text": "I follow (A-Z)(a-z)(0-9)"
+        },
+        {
+          "text": "I support (A-Z)(a-z)(0-9)"
+        },
+        {
+          "text": "The mighty (A-Z)(a-z)(0-9)"
+        },
+        {
+          "text": "yes-FavTeam_Ath-Answer"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "yes-fband",
+      "examples": [
+        {
+          "text": "yes-fband"
+        }
+      ],
+      "description": "yes-fband"
+    },
+    {
+      "intent": "yes-f-dir_act",
+      "examples": [
+        {
+          "text": "yes-f-dir_act"
+        }
+      ],
+      "description": "yes-f-dir_act"
+    },
+    {
+      "intent": "yes-fmovie",
+      "examples": [
+        {
+          "text": "yes-fmovie"
+        }
+      ],
+      "description": "yes-fmovie"
+    },
+    {
+      "intent": "yes-f-title",
+      "examples": [
+        {
+          "text": "yes-f-title"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "yes-f-title-answer",
+      "examples": [
+        {
+          "text": "(A-Z)(a-z)(0-9) is my favorite title"
+        },
+        {
+          "text": "(A-Z)(a-z)(0-9) is my favourite title"
+        },
+        {
+          "text": "(A-Z)(a-z)(0-9) is the best book"
+        },
+        {
+          "text": "(A-Z)(a-z)(0-9) is the book ever"
+        },
+        {
+          "text": "(A-Z)(a-z)(0-9) is the book title"
+        },
+        {
+          "text": "(A-Z)(a-z)(0-9) is the greatest book"
+        },
+        {
+          "text": "(A-Z)(a-z)(0-9) is the greatest book ever"
+        },
+        {
+          "text": "(A-Z)(a-z)(0-9) is the greatest title"
+        },
+        {
+          "text": "(A-Z)(a-z)(0-9) is the greatest title ever"
+        },
+        {
+          "text": "My favorite title is (A-Z)(a-z)(0-9)"
+        },
+        {
+          "text": "my favourite book is"
+        },
+        {
+          "text": "My favourite title is (A-Z)(a-z)(0-9)"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "yes-playLive",
+      "examples": [
+        {
+          "text": "yes-playLive"
+        }
+      ],
+      "description": "yes-playLive"
+    },
+    {
+      "intent": "Yes-PlayLiveAnswer",
+      "examples": [
+        {
+          "text": "(A-Z)(a-z)(0-9) in (0-9)"
+        },
+        {
+          "text": "(A-Z)(a-z)(0-9) in (A-Z)(a-z)(0-9) in (0-9)"
+        },
+        {
+          "text": "I saw them at"
+        },
+        {
+          "text": "I saw them at (A-Z)(a-z)(0-9) in (0-9)"
+        },
+        {
+          "text": "I saw them at (A-Z)(a-z)(0-9) in A-Z)(a-z)(0-9) in (0-9)"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "yes-PlaySport",
+      "examples": [
+        {
+          "text": "yes-more-sport"
+        },
+        {
+          "text": "yes-PlaySport"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "yes-Team",
+      "examples": [
+        {
+          "text": "yes-Team"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "yes-Team-Ans",
+      "examples": [],
+      "description": ""
+    }
+  ],
+  "entities": [
+    {
+      "entity": "holiday",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "christmas",
+          "synonyms": [
+            "christmas day",
+            "x man day",
+            "x mas",
+            "x-mas",
+            "xmas",
+            "x-mas day",
+            "xmas day"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "christmas eve",
+          "synonyms": [
+            "x mas eve",
+            "x-mas eve",
+            "xmas eve"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "halloween",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "independence day",
+          "synonyms": [
+            "7/4",
+            "fourth of july",
+            "july 4",
+            "july 4th",
+            "july fourth"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "labor day",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "memorial day",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "new years",
+          "synonyms": [
+            "1/1",
+            "jan 1",
+            "jan 1st",
+            "jan first",
+            "january 1",
+            "january 1st",
+            "january first",
+            "new year",
+            "new year day",
+            "new years day"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "new years eve",
+          "synonyms": [
+            "12-31",
+            "12/31",
+            "dec 31",
+            "dec 31st",
+            "new year's eve"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "thanksgiving",
+          "synonyms": [
+            "turkey day"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "valentine's day",
+          "synonyms": [
+            "valentine day",
+            "valentines day"
+          ]
+        }
+      ]
+    },
+    {
+      "entity": "reply",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "no",
+          "synonyms": [
+            "definitely not",
+            "don't think so",
+            "dont think so",
+            "i think not",
+            "nope",
+            "not at this time",
+            "not now"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "yes",
+          "synonyms": [
+            "definitely",
+            "go for it",
+            "let's do it",
+            "ok",
+            "please",
+            "sure",
+            "why not",
+            "yeah",
+            "yep",
+            "yes",
+            "you bet",
+            "you betcha"
+          ]
+        }
+      ]
+    },
+    {
+      "entity": "sys-currency",
+      "values": []
+    },
+    {
+      "entity": "sys-date",
+      "values": []
+    },
+    {
+      "entity": "sys-number",
+      "values": []
+    },
+    {
+      "entity": "sys-percentage",
+      "values": []
+    },
+    {
+      "entity": "sys-time",
+      "values": []
+    }
+  ],
+  "metadata": {
+    "api_version": {
+      "major_version": "v2",
+      "minor_version": "2018-11-08"
+    },
+    "from-sample": true
+  },
+  "dialog_nodes": [
+    {
+      "type": "folder",
+      "title": "Movies",
+      "parent": "node_9_1652506330517",
+      "conditions": "",
+      "dialog_node": "node_10_1652510302647"
+    },
+    {
+      "type": "standard",
+      "title": "No favourite actor/director response",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Again too many to choose from!"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "title": "Would Yoy like to chat some more?",
+            "options": [
+              {
+                "label": "Yes",
+                "value": {
+                  "input": {
+                    "text": "yes-more-chat"
+                  }
+                }
+              },
+              {
+                "label": "No",
+                "value": {
+                  "input": {
+                    "text": "Goodbye"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_10_1652510302647",
+      "conditions": "#no-f-dir_act",
+      "dialog_node": "node_10_1652524799139",
+      "previous_sibling": "node_4_1652521300022"
+    },
+    {
+      "type": "standard",
+      "title": "Yes favourite actor/director answer",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "‘They have acted in/directed some awesome titles!’"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "title": "Do you want to chat some more?",
+            "options": [
+              {
+                "label": "Yes",
+                "value": {
+                  "input": {
+                    "text": "yes-more-chat"
+                  }
+                }
+              },
+              {
+                "label": "No",
+                "value": {
+                  "input": {
+                    "text": "Goodbye"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_10_1652510302647",
+      "conditions": "#fav-director-or-actor",
+      "dialog_node": "node_10_1652528360925",
+      "previous_sibling": "node_10_1652524799139"
+    },
+    {
+      "type": "standard",
+      "title": "Favourite Title-Yes Answer",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Now THAT sounds like a great book! PLEASE tell me about ......and start with ‘‘In this (publication type’ (thanks)"
+              },
+              {
+                "text": "That sounds like an amazing title! PLEASE tell me about ......and start with ‘‘In this (publication type’ (thanks)"
+              },
+              {
+                "text": "This sounds cool! PLEASE tell me about ......and start with ‘‘In this (publication type’ (thanks)"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_8_1653456585966",
+      "conditions": "#yes-f-title-answer",
+      "dialog_node": "node_10_1653465262407",
+      "previous_sibling": "node_7_1653463852552"
+    },
+    {
+      "type": "standard",
+      "title": "Cricket",
+      "output": {
+        "generic": [
+          {
+            "title": "Which type?",
+            "options": [
+              {
+                "label": "Twenty20",
+                "value": {
+                  "input": {
+                    "text": "SportIsGreat"
+                  }
+                }
+              },
+              {
+                "label": "One Day International",
+                "value": {
+                  "input": {
+                    "text": "SportIsGreat"
+                  }
+                }
+              },
+              {
+                "label": " T10",
+                "value": {
+                  "input": {
+                    "text": "SportIsGreat"
+                  }
+                }
+              },
+              {
+                "label": "Test",
+                "value": {
+                  "input": {
+                    "text": "SportIsGreat"
+                  }
+                }
+              },
+              {
+                "label": "Other",
+                "value": {
+                  "input": {
+                    "text": "SportIsGreat"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_1_1653470812049",
+      "conditions": "#typeCricket",
+      "dialog_node": "node_10_1653478328740",
+      "previous_sibling": "node_4_1653476967517"
+    },
+    {
+      "type": "standard",
+      "title": "Favourite Athlete Or Team-Yes Response",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Which one? (Could you also please enter this in a  sentence - not just list the team/athlete...robot brain (uggh!))"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_1_1653470812049",
+      "conditions": "#yes-FavAth_Team",
+      "dialog_node": "node_10_1653482771064",
+      "previous_sibling": "node_1_1653479772389"
+    },
+    {
+      "type": "standard",
+      "title": "Yes Team Answer",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "How are things going? Did you win your last game, contest, or match (or secure victory otherwise and what is your ladder position (if relevant)?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_1_1653470812049",
+      "conditions": "#TeamName",
+      "dialog_node": "node_10_1653506798488",
+      "previous_sibling": "node_2_1653506225477"
+    },
+    {
+      "type": "standard",
+      "title": "What is being played",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "What are you playing at the moment? (Could you also please enter this in a  sentence - not just list the name of the game...robot brain (beep boop beep!))"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_9_1653520896169",
+      "conditions": "",
+      "dialog_node": "node_10_1653521715712",
+      "previous_sibling": "node_9_1653521117024"
+    },
+    {
+      "type": "standard",
+      "title": "Favourite Game-Yes Response",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "‘Which is your favourite game of all time?’ Please tell me in a sentence so my robot brain can process this 01110100 01101000 01100001 01101110 01101011 01110011."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_9_1653520896169",
+      "conditions": "#yes-FavGame",
+      "dialog_node": "node_10_1653524376984",
+      "previous_sibling": "node_4_1653523333928"
+    },
+    {
+      "type": "standard",
+      "title": "Favourite Game",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Progress!"
+              },
+              {
+                "text": "Nice effort!"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          },
+          {
+            "title": "Do you have an all time favourite game?",
+            "options": [
+              {
+                "label": "Yes",
+                "value": {
+                  "input": {
+                    "text": "yes-FavGame"
+                  }
+                }
+              },
+              {
+                "label": "No",
+                "value": {
+                  "input": {
+                    "text": "no-FavGame"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_9_1653520896169",
+      "conditions": "#PlayProgress",
+      "dialog_node": "node_10_1653526324919",
+      "previous_sibling": "node_5_1653526293842"
+    },
+    {
+      "type": "standard",
+      "title": "Volunteer",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "I see. What role do you play and which type of organization do you volunteer with?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_5_1652498647571",
+      "conditions": "#volunteer",
+      "dialog_node": "node_10_1653535963687",
+      "previous_sibling": "node_2_1653528753283"
+    },
+    {
+      "type": "standard",
+      "title": "Jokes",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Why was the robot angry? Because people kept pushing its buttons"
+              },
+              {
+                "text": "What is said at a robot funeral? Rust in peace"
+              },
+              {
+                "text": "How do robots drive? Depends on their interface and programming"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          },
+          {
+            "title": "Funny, right?",
+            "options": [
+              {
+                "label": "OK....please stop!",
+                "value": {
+                  "input": {
+                    "text": "yes-more-chat"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "conditions": "#General_Jokes",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_10_1653537910354",
+      "previous_sibling": "node_5_1652498647571"
+    },
+    {
+      "type": "standard",
+      "title": "Stressed",
+      "output": {
+        "generic": [
+          {
+            "title": "Would you like to try some exercises? This may help...",
+            "options": [
+              {
+                "label": "Yes please",
+                "value": {
+                  "input": {
+                    "text": "Yes-Exercise"
+                  }
+                }
+              },
+              {
+                "label": "No thanks",
+                "value": {
+                  "input": {
+                    "text": "No-Exercise"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_7_1652479279876",
+      "conditions": "#Stressed",
+      "dialog_node": "node_1_1652479328860"
+    },
+    {
+      "type": "folder",
+      "title": "Exercises",
+      "parent": "node_7_1652479279876",
+      "dialog_node": "node_1_1652482102765",
+      "previous_sibling": "node_9_1652482636020"
+    },
+    {
+      "type": "standard",
+      "title": "Cause-Life changing event",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Ohhh….I see…. Please allow yourself time. Change can be a lot to deal with! Take each day as it comes. Remember to eat,,sleep and exercise. When you are ready, perhaps consider establishing a new routine. But, not right now."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "title": "Would you like to chat some more?",
+            "options": [
+              {
+                "label": "Yes",
+                "value": {
+                  "input": {
+                    "text": "Great"
+                  }
+                }
+              },
+              {
+                "label": "No",
+                "value": {
+                  "input": {
+                    "text": "Goodbye"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_9_1652482636020",
+      "conditions": "#Causes-life_changing_event",
+      "dialog_node": "node_1_1652752641339",
+      "previous_sibling": "node_3_1652750063750"
+    },
+    {
+      "type": "standard",
+      "title": "Causes-Work life balance",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "I’m guessing you have time management under control. If not, a schedule could help.\n"
+              },
+              {
+                "text": "Always remember that there are more important things in life than work.\n"
+              },
+              {
+                "text": "Learning to say no is a thing. This can include ignoring work emails/messages during non work time.\n"
+              },
+              {
+                "text": "Setting goals and boundaries can help determine when it’s time to say no.\n"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          },
+          {
+            "title": "Would you like to talk some more?",
+            "options": [
+              {
+                "label": "Yes",
+                "value": {
+                  "input": {
+                    "text": "Great"
+                  }
+                }
+              },
+              {
+                "label": "No",
+                "value": {
+                  "input": {
+                    "text": "Goodbye"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_9_1652482636020",
+      "conditions": "#cause-work_life_balance",
+      "dialog_node": "node_1_1652752783172",
+      "previous_sibling": "node_2_1652752658668"
+    },
+    {
+      "type": "standard",
+      "title": "Yes-favourite band/artist response",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Who is your favorite band/artist? (Could you also please enter this in a single sentence - not just list the band/artist...robot brain (uggh!))."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_6_1652530373276",
+      "conditions": "#yes-fband",
+      "dialog_node": "node_1_1652841396954",
+      "previous_sibling": "node_9_1652531768053"
+    },
+    {
+      "type": "standard",
+      "title": "Favourite Author-Yes Response",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Who is your favourite author? (Could you also please enter this in a single sentence - not just list the name of the author...robot brain (uggh!))"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_8_1653456585966",
+      "conditions": "#yes-Fav_Author",
+      "dialog_node": "node_1_1653458817000",
+      "previous_sibling": "node_7_1653458311092"
+    },
+    {
+      "type": "standard",
+      "title": "Tell me about this book.....",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Sounds like a true masterpiece."
+              },
+              {
+                "text": "This sounds like a great read."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "title": "Would Yoy like to chat some more?",
+            "options": [
+              {
+                "label": "Yes",
+                "value": {
+                  "input": {
+                    "text": "yes-more-chat"
+                  }
+                }
+              },
+              {
+                "label": "No",
+                "value": {
+                  "input": {
+                    "text": "goodbye"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_8_1653456585966",
+      "conditions": "#about_the_book",
+      "dialog_node": "node_1_1653466346770",
+      "previous_sibling": "node_10_1653465262407"
+    },
+    {
+      "type": "folder",
+      "title": "Sport",
+      "parent": "node_9_1652506330517",
+      "dialog_node": "node_1_1653470812049",
+      "previous_sibling": "node_10_1652510302647"
+    },
+    {
+      "type": "standard",
+      "title": "Favourite Athlete Or Team",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Cool!"
+              },
+              {
+                "text": "Nice!"
+              },
+              {
+                "text": "Awesome!"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          },
+          {
+            "title": "Do you have a  favourite athlete or team?",
+            "options": [
+              {
+                "label": "Yes",
+                "value": {
+                  "input": {
+                    "text": "yes-FavAth_Team"
+                  }
+                }
+              },
+              {
+                "label": "No",
+                "value": {
+                  "input": {
+                    "text": "no-FavAth_Team"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_1_1653470812049",
+      "conditions": "#SportIsGreat",
+      "dialog_node": "node_1_1653479772389",
+      "previous_sibling": "node_4_1653479390114"
+    },
+    {
+      "type": "standard",
+      "title": "Favourite Athlete Or Team-Yes Answer",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Getting on with the job!"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "title": "Do you play any sport?",
+            "options": [
+              {
+                "label": "Yes",
+                "value": {
+                  "input": {
+                    "text": "Yes-PlaySport"
+                  }
+                }
+              },
+              {
+                "label": "No",
+                "value": {
+                  "input": {
+                    "text": "no-PlaySport"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_1_1653470812049",
+      "conditions": "#ladder",
+      "dialog_node": "node_1_1653482821561",
+      "previous_sibling": "node_9_1653482798593"
+    },
+    {
+      "type": "standard",
+      "title": "Feelings",
+      "output": {
+        "generic": [
+          {
+            "title": "How are you feeling now?",
+            "options": [
+              {
+                "label": "Bored",
+                "value": {
+                  "input": {
+                    "text": "Bored"
+                  }
+                }
+              },
+              {
+                "label": "Lonely",
+                "value": {
+                  "input": {
+                    "text": "Lonely"
+                  }
+                }
+              },
+              {
+                "label": "Great",
+                "value": {
+                  "input": {
+                    "text": "Great"
+                  }
+                }
+              },
+              {
+                "label": "Stressed",
+                "value": {
+                  "input": {
+                    "text": "Stressed"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "conditions": "#General_About_You",
+      "dialog_node": "node_2_1652509039065",
+      "previous_sibling": "Opening"
+    },
+    {
+      "type": "standard",
+      "title": "Hobbies-Intro",
+      "output": {
+        "generic": [
+          {
+            "title": "We can talk about....",
+            "options": [
+              {
+                "label": "Movies",
+                "value": {
+                  "input": {
+                    "text": "Movies"
+                  }
+                }
+              },
+              {
+                "label": "Music",
+                "value": {
+                  "input": {
+                    "text": "Music"
+                  }
+                }
+              },
+              {
+                "label": "Reading",
+                "value": {
+                  "input": {
+                    "text": "Reading"
+                  }
+                }
+              },
+              {
+                "label": "Sport",
+                "value": {
+                  "input": {
+                    "text": "Sport"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_9_1652506330517",
+      "conditions": "#more-chat || #family-about-positive",
+      "dialog_node": "node_2_1652510445921",
+      "previous_sibling": "node_7_1652950157665"
+    },
+    {
+      "type": "standard",
+      "title": "Causes-Under pressure",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Getting organized can help, and remember to factor in micro breaks! \n"
+              },
+              {
+                "text": "Communicate with your team to inform them of your progress, and ask for help if required."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          },
+          {
+            "title": "Would you like to talk some more?",
+            "options": [
+              {
+                "label": "Yes",
+                "value": {
+                  "input": {
+                    "text": "Great"
+                  }
+                }
+              },
+              {
+                "label": "No",
+                "value": {
+                  "input": {
+                    "text": "Goodbye"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_9_1652482636020",
+      "conditions": "#causes-pressure",
+      "dialog_node": "node_2_1652752658668",
+      "previous_sibling": "node_1_1652752641339"
+    },
+    {
+      "type": "standard",
+      "title": "Book or movie",
+      "output": {
+        "generic": [
+          {
+            "title": "Great.....wait...is this a book or a movie?",
+            "options": [
+              {
+                "label": "A book (or other publication)",
+                "value": {
+                  "input": {
+                    "text": "(A-Z)(a-z)(0-9) is the book title"
+                  }
+                }
+              },
+              {
+                "label": "Movie",
+                "value": {
+                  "input": {
+                    "text": "I just like the movie"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_9_1652506330517",
+      "conditions": "#Book_or_movie",
+      "dialog_node": "node_2_1652952121379",
+      "previous_sibling": "node_2_1652510445921"
+    },
+    {
+      "type": "standard",
+      "title": "No Play Sport Response",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "There is only so much time in a day."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "title": "Would you like to chat some more?",
+            "options": [
+              {
+                "label": "Yes",
+                "value": {
+                  "input": {
+                    "text": "yes-more-chat"
+                  }
+                }
+              },
+              {
+                "label": "No",
+                "value": {
+                  "input": {
+                    "text": "Goodbye"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_1_1653470812049",
+      "conditions": "#no-PlaySport",
+      "dialog_node": "node_2_1653499971519",
+      "previous_sibling": "node_6_1653636603969"
+    },
+    {
+      "type": "standard",
+      "title": "No-Team",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "How are things going? Did you win your last game, contest, or match (or secure victory otherwise) and what is your ladder position (if relevant)?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_1_1653470812049",
+      "conditions": "#no-Team",
+      "dialog_node": "node_2_1653506225477",
+      "previous_sibling": "node_3_1653501777633"
+    },
+    {
+      "type": "standard",
+      "title": "Study",
+      "output": {
+        "generic": [
+          {
+            "values": [],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "Future forward thinking! May I ask what you are studying and where?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_5_1652498647571",
+      "conditions": "#study",
+      "dialog_node": "node_2_1653528753283",
+      "previous_sibling": "node_9_1652503760445"
+    },
+    {
+      "type": "standard",
+      "title": "Intro-causes",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Tell me…what is happening in your world at the moment"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_9_1652482636020",
+      "conditions": "#stressCauses || #No-Exercise || #family-about-negative",
+      "dialog_node": "node_3_1652750063750"
+    },
+    {
+      "type": "standard",
+      "title": "What are they?",
+      "output": {
+        "generic": [
+          {
+            "title": "That's great....what are they again?",
+            "options": [
+              {
+                "label": "Band",
+                "value": {
+                  "input": {
+                    "text": "My favourite artist is"
+                  }
+                }
+              },
+              {
+                "label": "Musician",
+                "value": {
+                  "input": {
+                    "text": "My favourite artist is"
+                  }
+                }
+              },
+              {
+                "label": "Director",
+                "value": {
+                  "input": {
+                    "text": "my favourite director/actor is (A-Z)(a-z)(0-9)"
+                  }
+                }
+              },
+              {
+                "label": "Actor",
+                "value": {
+                  "input": {
+                    "text": "my favourite director/actor is (A-Z)(a-z)(0-9)"
+                  }
+                }
+              },
+              {
+                "label": "Athlete",
+                "value": {
+                  "input": {
+                    "text": "yes-FavTeam_Ath-Answer"
+                  }
+                }
+              },
+              {
+                "label": "Author",
+                "value": {
+                  "input": {
+                    "text": "my favourite author is"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          },
+          {
+            "title": "OR is this....",
+            "options": [
+              {
+                "label": "An album",
+                "value": {
+                  "input": {
+                    "text": "(A-Z)(a-z)(0-9) is the best album"
+                  }
+                }
+              },
+              {
+                "label": "A book (or other publication)",
+                "value": {
+                  "input": {
+                    "text": "my favourite book is"
+                  }
+                }
+              },
+              {
+                "label": "A movie",
+                "value": {
+                  "input": {
+                    "text": "I just like the movie"
+                  }
+                }
+              },
+              {
+                "label": "A PC/Console game",
+                "value": {
+                  "input": {
+                    "text": "PlayingRightNow"
+                  }
+                }
+              },
+              {
+                "label": "Your favourite PC/Console Game",
+                "value": {
+                  "input": {
+                    "text": "FavGame"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_9_1652506330517",
+      "conditions": "#like",
+      "dialog_node": "node_3_1652948895774",
+      "previous_sibling": "node_1_1653470812049"
+    },
+    {
+      "type": "standard",
+      "title": "Genre",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Reading is exploring…"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "title": "Which is your  favourite genre?",
+            "options": [
+              {
+                "label": "Non-fiction",
+                "value": {
+                  "input": {
+                    "text": "fav-book-genre"
+                  }
+                }
+              },
+              {
+                "label": "Anime",
+                "value": {
+                  "input": {
+                    "text": "fav-book-genre"
+                  }
+                }
+              },
+              {
+                "label": "Graphic novels",
+                "value": {
+                  "input": {
+                    "text": "fav-book-genre"
+                  }
+                }
+              },
+              {
+                "label": "Sci-fi",
+                "value": {
+                  "input": {
+                    "text": "fav-book-genre"
+                  }
+                }
+              },
+              {
+                "label": "Thriller",
+                "value": {
+                  "input": {
+                    "text": "fav-book-genre"
+                  }
+                }
+              },
+              {
+                "label": "Mystery",
+                "value": {
+                  "input": {
+                    "text": "fav-book-genre"
+                  }
+                }
+              },
+              {
+                "label": "Crime",
+                "value": {
+                  "input": {
+                    "text": "fav-book-genre"
+                  }
+                }
+              },
+              {
+                "label": "Other",
+                "value": {
+                  "input": {
+                    "text": "fav-book-genre"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_8_1653456585966",
+      "conditions": "#Reading",
+      "dialog_node": "node_3_1653457136193"
+    },
+    {
+      "type": "standard",
+      "title": "Yes Play Sport Response",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Cool as!"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "title": "Which sport do you play (if you play multiple sport, please pick one now and save the rest for later)?",
+            "options": [
+              {
+                "label": "Golf",
+                "value": {
+                  "input": {
+                    "text": "no-Team"
+                  }
+                }
+              },
+              {
+                "label": "Swimming",
+                "value": {
+                  "input": {
+                    "text": "no-Team"
+                  }
+                }
+              },
+              {
+                "label": "Tennis",
+                "value": {
+                  "input": {
+                    "text": "no-Team"
+                  }
+                }
+              },
+              {
+                "label": "Football",
+                "value": {
+                  "input": {
+                    "text": "yes-Team"
+                  }
+                }
+              },
+              {
+                "label": "Cricket",
+                "value": {
+                  "input": {
+                    "text": "yes-Team"
+                  }
+                }
+              },
+              {
+                "label": "Motorsport",
+                "value": {
+                  "input": {
+                    "text": "no-Team"
+                  }
+                }
+              },
+              {
+                "label": "Basketball",
+                "value": {
+                  "input": {
+                    "text": "yes-Team"
+                  }
+                }
+              },
+              {
+                "label": "Hockey",
+                "value": {
+                  "input": {
+                    "text": "yes-Team"
+                  }
+                }
+              },
+              {
+                "label": "Other",
+                "value": {
+                  "input": {
+                    "text": "yes-Team"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_1_1653470812049",
+      "conditions": "#yes-PlaySport",
+      "dialog_node": "node_3_1653500108081",
+      "previous_sibling": "node_2_1653499971519"
+    },
+    {
+      "type": "standard",
+      "title": "Yes-Team Response",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Play on!"
+              },
+              {
+                "text": "Go team!"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "What is your team’s name? (Could you please start your sentence with 'My team'...robot brain (beep boop beep!))"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_1_1653470812049",
+      "conditions": "#yes-Team",
+      "dialog_node": "node_3_1653501777633",
+      "previous_sibling": "node_3_1653500108081"
+    },
+    {
+      "type": "standard",
+      "title": "Gender",
+      "output": {
+        "generic": [
+          {
+            "title": "Please enter your gender",
+            "options": [
+              {
+                "label": "Male",
+                "value": {
+                  "input": {
+                    "text": "Thanks for entering your gender"
+                  }
+                }
+              },
+              {
+                "label": "Female",
+                "value": {
+                  "input": {
+                    "text": "Thanks for entering your gender"
+                  }
+                }
+              },
+              {
+                "label": "Other",
+                "value": {
+                  "input": {
+                    "text": "Thanks for entering your gender"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "Opening",
+      "conditions": "#General_About_You",
+      "dialog_node": "node_4_1652478930460"
+    },
+    {
+      "type": "standard",
+      "title": "No-Favourite Movie Response",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Too many to choose from!"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "title": "Do you have a favourite director",
+            "options": [
+              {
+                "label": "Yes",
+                "value": {
+                  "input": {
+                    "text": "yes-f-dir_act"
+                  }
+                }
+              },
+              {
+                "label": "No",
+                "value": {
+                  "input": {
+                    "text": "no-f-dir_act"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_10_1652510302647",
+      "conditions": "#no-fmovie",
+      "dialog_node": "node_4_1652521300022",
+      "previous_sibling": "node_6_1652518913157"
+    },
+    {
+      "type": "standard",
+      "title": "Genre",
+      "output": {
+        "generic": [
+          {
+            "title": "Do you have a favourite genre?",
+            "options": [
+              {
+                "label": "Pop",
+                "value": {
+                  "input": {
+                    "text": "MusicIsLife"
+                  }
+                }
+              },
+              {
+                "label": "Punk",
+                "value": {
+                  "input": {
+                    "text": "MusicIsLife"
+                  }
+                }
+              },
+              {
+                "label": "Heavy metal",
+                "value": {
+                  "input": {
+                    "text": "MusicIsLife"
+                  }
+                }
+              },
+              {
+                "label": "R & B",
+                "value": {
+                  "input": {
+                    "text": "MusicIsLife"
+                  }
+                }
+              },
+              {
+                "label": "Classical",
+                "value": {
+                  "input": {
+                    "text": "MusicIsLife"
+                  }
+                }
+              },
+              {
+                "label": "Country and Western",
+                "value": {
+                  "input": {
+                    "text": "MusicIsLife"
+                  }
+                }
+              },
+              {
+                "label": "Other",
+                "value": {
+                  "input": {
+                    "text": "MusicIsLife"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_6_1652530373276",
+      "conditions": "#Music",
+      "dialog_node": "node_4_1652530949838"
+    },
+    {
+      "type": "standard",
+      "title": "Yes-PlayLive response",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Nice!! May I ask where and when? (Could you also please enter this in a single sentence - not just list the band/artist...robot brain (beep boop beep!))"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_6_1652530373276",
+      "conditions": "#yes-playLive",
+      "dialog_node": "node_4_1652739947957",
+      "previous_sibling": "node_7_1652558458251"
+    },
+    {
+      "type": "standard",
+      "title": "Yes-PlayLive answer",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Oh wow, what an amazing experience it must have been!"
+              },
+              {
+                "text": "Would have been a great time I’m sure!"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "title": "Would Yoy like to chat some more?",
+            "options": [
+              {
+                "label": "Yes",
+                "value": {
+                  "input": {
+                    "text": "yes-more chat"
+                  }
+                }
+              },
+              {
+                "label": "No",
+                "value": {
+                  "input": {
+                    "text": "Goodbye"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_6_1652530373276",
+      "conditions": "#Yes-PlayLiveAnswer",
+      "dialog_node": "node_4_1652742325488",
+      "previous_sibling": "node_5_1652741902811"
+    },
+    {
+      "type": "standard",
+      "title": "Football",
+      "output": {
+        "generic": [
+          {
+            "title": "Which code?",
+            "options": [
+              {
+                "label": "AFL",
+                "value": {
+                  "input": {
+                    "text": "SportIsGreat"
+                  }
+                }
+              },
+              {
+                "label": "NRL",
+                "value": {
+                  "input": {
+                    "text": "SportIsGreat"
+                  }
+                }
+              },
+              {
+                "label": "Soccer",
+                "value": {
+                  "input": {
+                    "text": "SportIsGreat"
+                  }
+                }
+              },
+              {
+                "label": "Touch Footy",
+                "value": {
+                  "input": {
+                    "text": "SportIsGreat"
+                  }
+                }
+              },
+              {
+                "label": "Grid iron",
+                "value": {
+                  "input": {
+                    "text": "SportIsGreat"
+                  }
+                }
+              },
+              {
+                "label": "Rugby Union",
+                "value": {
+                  "input": {
+                    "text": "SportIsGreat"
+                  }
+                }
+              },
+              {
+                "label": "Other",
+                "value": {
+                  "input": {
+                    "text": "SportIsGreat"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_1_1653470812049",
+      "conditions": "#codeFooty",
+      "dialog_node": "node_4_1653476967517",
+      "previous_sibling": "node_9_1653470858934"
+    },
+    {
+      "type": "standard",
+      "title": "MotorSport",
+      "output": {
+        "generic": [
+          {
+            "title": "Which code?",
+            "options": [
+              {
+                "label": "Motorbike based code (eg MotoGP)",
+                "value": {
+                  "input": {
+                    "text": "SportIsGreat"
+                  }
+                }
+              },
+              {
+                "label": "Open wheel formats (such as Fromula 1)",
+                "value": {
+                  "input": {
+                    "text": "SportIsGreat"
+                  }
+                }
+              },
+              {
+                "label": "Other",
+                "value": {
+                  "input": {
+                    "text": "SportIsGreat"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_1_1653470812049",
+      "conditions": "#codeMoto",
+      "dialog_node": "node_4_1653479390114",
+      "previous_sibling": "node_10_1653478328740"
+    },
+    {
+      "type": "standard",
+      "title": "Not So Well",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Next time....."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "title": "Would you like to chat some more?",
+            "options": [
+              {
+                "label": "Yes",
+                "value": {
+                  "input": {
+                    "text": "yes-more-chat"
+                  }
+                }
+              },
+              {
+                "label": "No",
+                "value": {
+                  "input": {
+                    "text": "Goodbye"
+                  }
+                }
+              },
+              {
+                "label": "Can we talk about sport some more?",
+                "value": {
+                  "input": {
+                    "text": "yes-more-sport"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_1_1653470812049",
+      "conditions": "#NotSoWell",
+      "dialog_node": "node_4_1653507612524",
+      "previous_sibling": "node_9_1653507571313"
+    },
+    {
+      "type": "standard",
+      "title": "Game Progress",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Great game!"
+              },
+              {
+                "text": "Awesome title!"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "Where in the game are you up to?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_9_1653520896169",
+      "conditions": "#PlayingRightNow",
+      "dialog_node": "node_4_1653523333928",
+      "previous_sibling": "node_10_1653521715712"
+    },
+    {
+      "type": "standard",
+      "title": "Volunteer-about",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Thant’s a great contribution!"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "title": "What do like to do for fun?",
+            "options": [
+              {
+                "label": "Reading",
+                "value": {
+                  "input": {
+                    "text": "Reading"
+                  }
+                }
+              },
+              {
+                "label": "Watching movies",
+                "value": {
+                  "input": {
+                    "text": "Movies"
+                  }
+                }
+              },
+              {
+                "label": "Listen to music",
+                "value": {
+                  "input": {
+                    "text": "Music"
+                  }
+                }
+              },
+              {
+                "label": "Watch/play sport",
+                "value": {
+                  "input": {
+                    "text": "Sport"
+                  }
+                }
+              },
+              {
+                "label": "Play PC/Console games",
+                "value": {
+                  "input": {
+                    "text": "PCGames"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_10_1653535963687",
+      "conditions": "#volunteer-about",
+      "dialog_node": "node_4_1653536273176"
+    },
+    {
+      "type": "folder",
+      "title": "busy",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_5_1652498647571",
+      "previous_sibling": "node_9_1652506330517"
+    },
+    {
+      "type": "standard",
+      "title": "Type",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Oh wow!"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "title": "What do you like to do for fun?",
+            "options": [
+              {
+                "label": "Reading",
+                "value": {
+                  "input": {
+                    "text": "Reading"
+                  }
+                }
+              },
+              {
+                "label": "Watch movies",
+                "value": {
+                  "input": {
+                    "text": "Movies"
+                  }
+                }
+              },
+              {
+                "label": "Listen to music",
+                "value": {
+                  "input": {
+                    "text": "Music"
+                  }
+                }
+              },
+              {
+                "label": "Watch/play sport",
+                "value": {
+                  "input": {
+                    "text": "Sport"
+                  }
+                }
+              },
+              {
+                "label": "Play PC/Console games",
+                "value": {
+                  "input": {
+                    "text": "PCGames"
+                  }
+                }
+              }
+            ],
+            "description": "",
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_9_1652499449224",
+      "conditions": "#industry",
+      "dialog_node": "node_5_1652500691007"
+    },
+    {
+      "type": "standard",
+      "title": "anything-else",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Thanks for the chat. See you next time! Please close the windows when ready."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#General_Ending || anything-else",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_5_1652525381065",
+      "previous_sibling": "node_9_1653536690963"
+    },
+    {
+      "type": "standard",
+      "title": "No-album response",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "How does one choose?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "title": "Have you ever seen them live? (Please enter this in a sentence (and not just list the album name....thanks!).",
+            "options": [
+              {
+                "label": "Yes",
+                "value": {
+                  "input": {
+                    "text": "yes-playLive"
+                  }
+                }
+              },
+              {
+                "label": "No",
+                "value": {
+                  "input": {
+                    "text": "no-playLive"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_6_1652530373276",
+      "conditions": "#no-falbum",
+      "dialog_node": "node_5_1652741902811",
+      "previous_sibling": "node_6_1652740067190"
+    },
+    {
+      "type": "standard",
+      "title": "Favourite Author-No Response",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "There are so many it’s hard to choose just one!"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "title": "Do you have a  favourite title?",
+            "options": [
+              {
+                "label": "Yes",
+                "value": {
+                  "input": {
+                    "text": "yes-f-title"
+                  }
+                }
+              },
+              {
+                "label": "No",
+                "value": {
+                  "input": {
+                    "text": "no-f-title"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_8_1653456585966",
+      "conditions": "#no-Fav_Author",
+      "dialog_node": "node_5_1653458875217",
+      "previous_sibling": "node_1_1653458817000"
+    },
+    {
+      "type": "standard",
+      "title": "Favourite Game-No Response",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Too many to choose from"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "There are some ‘interesting’ games out there. What do you think is the worst game, and why? (Please start your input with 'The worst game is'"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_9_1653520896169",
+      "conditions": "#no-FavGame",
+      "dialog_node": "node_5_1653526293842",
+      "previous_sibling": "node_8_1653526127247"
+    },
+    {
+      "type": "standard",
+      "title": "retired",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Well deserved!"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "title": "What do you like to do for fun?",
+            "options": [
+              {
+                "label": "Reading",
+                "value": {
+                  "input": {
+                    "text": "Reading"
+                  }
+                }
+              },
+              {
+                "label": "Watch movies",
+                "value": {
+                  "input": {
+                    "text": "Movies"
+                  }
+                }
+              },
+              {
+                "label": "Listen to music",
+                "value": {
+                  "input": {
+                    "text": "Music"
+                  }
+                }
+              },
+              {
+                "label": "Watch/play sport",
+                "value": {
+                  "input": {
+                    "text": "Sport"
+                  }
+                }
+              },
+              {
+                "label": "Play PC/Console games",
+                "value": {
+                  "input": {
+                    "text": "PCGames"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_5_1652498647571",
+      "conditions": "#retired",
+      "dialog_node": "node_6_1652503440047",
+      "previous_sibling": "node_7_1652503112425"
+    },
+    {
+      "type": "standard",
+      "title": "Title",
+      "output": {
+        "generic": [
+          {
+            "title": "Do you have a favourite movie?",
+            "options": [
+              {
+                "label": "Yes",
+                "value": {
+                  "input": {
+                    "text": "yes-fmovie"
+                  }
+                }
+              },
+              {
+                "label": "No",
+                "value": {
+                  "input": {
+                    "text": "no-fmovie"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_10_1652510302647",
+      "conditions": "#General_Answers",
+      "dialog_node": "node_6_1652510624863",
+      "previous_sibling": "node_9_1652510402815"
+    },
+    {
+      "type": "standard",
+      "title": "Yes-Favourite Movie-Answer",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Now THAT is a great movie!"
+              },
+              {
+                "text": "That is an amazing title!"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          },
+          {
+            "title": "Do you have a favourite direcotor or actor?",
+            "options": [
+              {
+                "label": "Yes",
+                "value": {
+                  "input": {
+                    "text": "yes-f-dir_act"
+                  }
+                }
+              },
+              {
+                "label": "No",
+                "value": {
+                  "input": {
+                    "text": "no-f-dir_act"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_10_1652510302647",
+      "conditions": "#title-fav-movie",
+      "dialog_node": "node_6_1652518913157",
+      "previous_sibling": "node_9_1652511814804"
+    },
+    {
+      "type": "folder",
+      "title": "Music",
+      "parent": "node_9_1652506330517",
+      "dialog_node": "node_6_1652530373276",
+      "previous_sibling": "node_2_1652952121379"
+    },
+    {
+      "type": "standard",
+      "title": "No-PlayLive response",
+      "output": {
+        "generic": [
+          {
+            "values": [],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "Maybe one day you may see them =0D"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "title": "Would Yoy like to chat some more?",
+            "options": [
+              {
+                "label": "Yes",
+                "value": {
+                  "input": {
+                    "text": "yes-more chat"
+                  }
+                }
+              },
+              {
+                "label": "No",
+                "value": {
+                  "input": {
+                    "text": "Goodbye"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_6_1652530373276",
+      "conditions": "#no-playLive",
+      "dialog_node": "node_6_1652740067190",
+      "previous_sibling": "node_4_1652739947957"
+    },
+    {
+      "type": "standard",
+      "title": "Album or Artist",
+      "output": {
+        "generic": [
+          {
+            "title": "Interesting......do you mean the album or the band/artist?",
+            "options": [
+              {
+                "label": "The album",
+                "value": {
+                  "input": {
+                    "text": "My favorite band is"
+                  }
+                }
+              },
+              {
+                "label": "The band/artist",
+                "value": {
+                  "input": {
+                    "text": "My favorite artist is"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_6_1652530373276",
+      "conditions": "#Album_or_Artist",
+      "dialog_node": "node_6_1652949699975",
+      "previous_sibling": "node_4_1652742325488"
+    },
+    {
+      "type": "standard",
+      "title": "Yes favourite actor/director response",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Who is your favorite actor or director? \nPlease enter your response in a sentence (and not just list the actor or director's name....thanks!)."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_10_1652510302647",
+      "conditions": "#yes-f-dir_act",
+      "dialog_node": "node_6_1653454879433",
+      "previous_sibling": "node_10_1652528360925"
+    },
+    {
+      "type": "standard",
+      "title": "Ladder-Scoreboard-Leaderboard-tallyboard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "They have some serious talent!"
+              },
+              {
+                "text": " Legendry!"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "How is your favourite team doing? I'm especially interested in hearing where they are on the score board/leader board/tally board?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_1_1653470812049",
+      "conditions": "#yes-FavTeam_Ath-Answer",
+      "dialog_node": "node_6_1653636603969",
+      "previous_sibling": "node_1_1653482821561"
+    },
+    {
+      "type": "folder",
+      "title": "Topics",
+      "conditions": "",
+      "dialog_node": "node_7_1652479279876",
+      "previous_sibling": "node_2_1652509039065"
+    },
+    {
+      "type": "standard",
+      "title": "Family",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Ah ok. Would you mind telling me a bit about them?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#family",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_7_1652479380703",
+      "previous_sibling": "node_7_1652479279876"
+    },
+    {
+      "type": "standard",
+      "title": "unemployed",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "I hope this changes for you soon!"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "title": "What do you like to do for fun?",
+            "options": [
+              {
+                "label": "Reading",
+                "value": {
+                  "input": {
+                    "text": "Reading"
+                  }
+                }
+              },
+              {
+                "label": "Watching movies",
+                "value": {
+                  "input": {
+                    "text": "Movies"
+                  }
+                }
+              },
+              {
+                "label": "Listen to music",
+                "value": {
+                  "input": {
+                    "text": "Music"
+                  }
+                }
+              },
+              {
+                "label": "Watch/play sport",
+                "value": {
+                  "input": {
+                    "text": ""
+                  }
+                }
+              },
+              {
+                "label": "Play PC/Console games",
+                "value": {
+                  "input": {
+                    "text": "PCGames"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_5_1652498647571",
+      "conditions": "#unemployed",
+      "dialog_node": "node_7_1652503112425",
+      "previous_sibling": "node_9_1652499449224"
+    },
+    {
+      "type": "standard",
+      "title": "No favourite artist/band response",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Tough choice!"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "title": "Do you have a favorite album? (Could you also please enter this in a single sentence - not just list the band/artist...robot brain (uggh!))",
+            "options": [
+              {
+                "label": "Yes",
+                "value": {
+                  "input": {
+                    "text": "yes-falbum"
+                  }
+                }
+              },
+              {
+                "label": "No",
+                "value": {
+                  "input": {
+                    "text": "no-falbum"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_6_1652530373276",
+      "conditions": "#no-fband",
+      "dialog_node": "node_7_1652535420032",
+      "previous_sibling": "node_9_1652535358585"
+    },
+    {
+      "type": "standard",
+      "title": "Yes-favourite album answer",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "THAT is a great album!"
+              },
+              {
+                "text": "That is an amazing record"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "title": "Have you ever seen them play live?",
+            "options": [
+              {
+                "label": "Yes",
+                "value": {
+                  "input": {
+                    "text": "yes-playLive"
+                  }
+                }
+              },
+              {
+                "label": "No",
+                "value": {
+                  "input": {
+                    "text": "no-playLive"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_6_1652530373276",
+      "conditions": "#fav-album-answer",
+      "dialog_node": "node_7_1652558458251",
+      "previous_sibling": "node_8_1652741438102"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Here are five stress reducing exercises you can try sitting at your desk:\n"
+              },
+              {
+                "text": "Neck swing: Relax your muscles and bring your chin to your chest. Roll your head from one shoulder to the other. Repeat around 3-5 times.\n"
+              },
+              {
+                "text": "Overhead stretch:  Bring both your arms above your head, and interlock your fingers. Press upwards and hold for around 5 seconds before releasing.\n"
+              },
+              {
+                "text": "Spinal twist: Sit upright and place both feet on the floor Use your right hand and reach around to the back of your chair.Gently rotate your torso (the middle of your body) to the right, while keeping your back straight and hips parallel to the floor. Hold for 15-30 Seconds, then repeat with the left side."
+              },
+              {
+                "text": "Seated hip (and glute) stretch: While seated,place both your feet on the floor. Then, lift your right foot, and cross your right ankle with your left knee. While keeping your back straight,lean forward. Stop once you can feel a stretch in your hip and glute. For a deeper hip stretch, (gently) press down onto your right knee. Hold for 10-30 seconds, and repeat on the left side.\n"
+              },
+              {
+                "text": "Wrist and forearm stretch: Extend your right arm forward. Have your wrist facing up, and extend your fingertips downwards. Using your left hand, gently pull your hand back towards you.\n"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          },
+          {
+            "title": "l stressed, we  can talk some more about this. Or, we can talk about something else...",
+            "options": [
+              {
+                "label": "I still feel stressed",
+                "value": {
+                  "input": {
+                    "text": "No-Exercise"
+                  }
+                }
+              },
+              {
+                "label": "All good now. Let's talk about something else",
+                "value": {
+                  "input": {
+                    "text": "yes-more-chat"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_1_1652482102765",
+      "conditions": "#Yes-Exercise",
+      "dialog_node": "node_7_1652746293498"
+    },
+    {
+      "type": "standard",
+      "title": "Causes-Uncertain",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "I hope you are being patient with and looking after yourself!\n"
+              },
+              {
+                "text": "Remember all the things you have done in life so far. Could any of the learning from those life lessons be applied here?\n"
+              },
+              {
+                "text": " Acquire skills needed if necessary.\n"
+              },
+              {
+                "text": "Focus on what you can control.\n"
+              },
+              {
+                "text": " News is probably not a friend here, so it may be best to limit your exposure.\n"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          },
+          {
+            "title": "Oh...and if you feel lonely...",
+            "options": [
+              {
+                "label": "Please click here!",
+                "value": {
+                  "input": {
+                    "text": "Alone"
+                  }
+                }
+              },
+              {
+                "label": "",
+                "value": {
+                  "input": {
+                    "text": ""
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          },
+          {
+            "title": "Else, would you like to talk some more?",
+            "options": [
+              {
+                "label": "Yes",
+                "value": {
+                  "input": {
+                    "text": "Great"
+                  }
+                }
+              },
+              {
+                "label": "No",
+                "value": {
+                  "input": {
+                    "text": "Goodbye"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_9_1652482636020",
+      "conditions": "#cause-uncertain",
+      "dialog_node": "node_7_1652752796348",
+      "previous_sibling": "node_1_1652752783172"
+    },
+    {
+      "type": "standard",
+      "title": "Book, album, game or movie",
+      "output": {
+        "generic": [
+          {
+            "title": "OK......do you mean the book, PC/Console game, album or movie?",
+            "options": [
+              {
+                "label": "Book",
+                "value": {
+                  "input": {
+                    "text": "(A-Z)(a-z)(0-9) is the best book"
+                  }
+                }
+              },
+              {
+                "label": "Album",
+                "value": {
+                  "input": {
+                    "text": "my favorite album is"
+                  }
+                }
+              },
+              {
+                "label": "Movie",
+                "value": {
+                  "input": {
+                    "text": "I just like the movie"
+                  }
+                }
+              },
+              {
+                "label": "PC/Console Game",
+                "value": {
+                  "input": {
+                    "text": "PlayingRightNow"
+                  }
+                }
+              },
+              {
+                "label": "Favourite PC/Console Game",
+                "value": {
+                  "input": {
+                    "text": "FavGame"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_9_1652506330517",
+      "conditions": "#Book_or_album_or_movie_or_game",
+      "dialog_node": "node_7_1652950157665",
+      "previous_sibling": "node_3_1652948895774"
+    },
+    {
+      "type": "standard",
+      "title": "Favourite author",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Guessing you have a favourite author? (Could you also please enter this in a single sentence - not just list the author's name...robot brain (gah!))"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_8_1653456585966",
+      "conditions": "#fav-book-genre",
+      "dialog_node": "node_7_1653458311092",
+      "previous_sibling": "node_3_1653457136193"
+    },
+    {
+      "type": "standard",
+      "title": "Favourite Title-No Response",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Understandable….too many to choose from!"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "title": "Would Yoy like to chat some more?",
+            "options": [
+              {
+                "label": "Yes",
+                "value": {
+                  "input": {
+                    "text": "yes-more-chat"
+                  }
+                }
+              },
+              {
+                "label": "No",
+                "value": {
+                  "input": {
+                    "text": "goodbye"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_8_1653456585966",
+      "conditions": "#no-f-title",
+      "dialog_node": "node_7_1653463852552",
+      "previous_sibling": "node_9_1653463512820"
+    },
+    {
+      "type": "standard",
+      "title": "busy-intro",
+      "output": {
+        "generic": [
+          {
+            "title": "What keeps you occupied?",
+            "options": [
+              {
+                "label": "Work",
+                "value": {
+                  "input": {
+                    "text": "work"
+                  }
+                }
+              },
+              {
+                "label": "Study",
+                "value": {
+                  "input": {
+                    "text": "study"
+                  }
+                }
+              },
+              {
+                "label": "Family",
+                "value": {
+                  "input": {
+                    "text": "family"
+                  }
+                }
+              },
+              {
+                "label": "Random stuff",
+                "value": {
+                  "input": {
+                    "text": "random"
+                  }
+                }
+              },
+              {
+                "label": "Retired",
+                "value": {
+                  "input": {
+                    "text": "retired"
+                  }
+                }
+              },
+              {
+                "label": "Unemployed",
+                "value": {
+                  "input": {
+                    "text": "unemployed"
+                  }
+                }
+              },
+              {
+                "label": "Volunteer",
+                "value": {
+                  "input": {
+                    "text": "Volunteer"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_5_1652498647571",
+      "conditions": "#Bored || #Great",
+      "dialog_node": "node_8_1652498717024"
+    },
+    {
+      "type": "standard",
+      "title": "Yes-favourite album response",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Which one? Please enter this in a sentence (and not just list the album name....thanks!)."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_6_1652530373276",
+      "conditions": "#yes-falbum",
+      "dialog_node": "node_8_1652741438102",
+      "previous_sibling": "node_7_1652535420032"
+    },
+    {
+      "type": "standard",
+      "title": "study-what",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "That’s so great!"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "title": "What do you do for fun (I'm guessing you have some spare time....)?",
+            "options": [
+              {
+                "label": "Reading",
+                "value": {
+                  "input": {
+                    "text": "Reading"
+                  }
+                }
+              },
+              {
+                "label": "Watch movies",
+                "value": {
+                  "input": {
+                    "text": "Movies"
+                  }
+                }
+              },
+              {
+                "label": "Listen to music",
+                "value": {
+                  "input": {
+                    "text": "Music"
+                  }
+                }
+              },
+              {
+                "label": "Watch/play sport",
+                "value": {
+                  "input": {
+                    "text": "Sport"
+                  }
+                }
+              },
+              {
+                "label": "Play PC/Console games",
+                "value": {
+                  "input": {
+                    "text": "PCGames"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_2_1653528753283",
+      "conditions": "#study-what",
+      "dialog_node": "node_8_1652743918536"
+    },
+    {
+      "type": "folder",
+      "title": "Reading",
+      "parent": "node_9_1652506330517",
+      "dialog_node": "node_8_1653456585966",
+      "previous_sibling": "node_6_1652530373276"
+    },
+    {
+      "type": "standard",
+      "title": "Worst game",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "What a load of dirt!"
+              },
+              {
+                "text": "What a stinker!"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "title": "Would you like to chat some more?",
+            "options": [
+              {
+                "label": "Yes",
+                "value": {
+                  "input": {
+                    "text": "yes-more-chat"
+                  }
+                }
+              },
+              {
+                "label": "No",
+                "value": {
+                  "input": {
+                    "text": "Goodbye"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_9_1653520896169",
+      "conditions": "#WorstGameEver",
+      "dialog_node": "node_8_1653526127247",
+      "previous_sibling": "node_10_1653524376984"
+    },
+    {
+      "type": "standard",
+      "title": "Favourite Game-Yes Answer",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Now THAT is a great game!"
+              },
+              {
+                "text": "That is an amazing game!"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "There are some ‘interesting’ games out there. What do you think is the worst game, and why? (Please start your input with 'The worst game is'"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_9_1653520896169",
+      "conditions": "#FavGame",
+      "dialog_node": "node_8_1653527283231",
+      "previous_sibling": "node_10_1653526324919"
+    },
+    {
+      "type": "standard",
+      "title": "Lonely ",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "I can be your friend…well a virtual friend =0D."
+              },
+              {
+                "text": "Can I suggest taking up a hobby? It’s a great way to meet people!"
+              },
+              {
+                "text": "Hobbies can be virtual or face to face. Learning new things can be fun too!"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "title": "We can talk about all sorts of things....",
+            "options": [
+              {
+                "label": "OK",
+                "value": {
+                  "input": {
+                    "text": "yes-more-chat"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_7_1652479279876",
+      "conditions": "#Lonely",
+      "dialog_node": "node_9_1652481933036",
+      "previous_sibling": "node_1_1652482102765"
+    },
+    {
+      "type": "folder",
+      "title": "Cause",
+      "parent": "node_7_1652479279876",
+      "dialog_node": "node_9_1652482636020",
+      "previous_sibling": "node_1_1652479328860"
+    },
+    {
+      "type": "standard",
+      "title": "work",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "I see.  What kind of work do you do?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_5_1652498647571",
+      "conditions": "#work",
+      "dialog_node": "node_9_1652499449224",
+      "previous_sibling": "node_8_1652498717024"
+    },
+    {
+      "type": "standard",
+      "title": "Random",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "This is rather unique...."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "title": "What do like to do for fun?",
+            "options": [
+              {
+                "label": "Reading",
+                "value": {
+                  "input": {
+                    "text": "Reading"
+                  }
+                }
+              },
+              {
+                "label": "Watch movies",
+                "value": {
+                  "input": {
+                    "text": "Movies"
+                  }
+                }
+              },
+              {
+                "label": "Listen to music",
+                "value": {
+                  "input": {
+                    "text": "Music"
+                  }
+                }
+              },
+              {
+                "label": "Watch/play sport",
+                "value": {
+                  "input": {
+                    "text": "Sport"
+                  }
+                }
+              },
+              {
+                "label": "Play PC/Console games",
+                "value": {
+                  "input": {
+                    "text": "PCGames"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_5_1652498647571",
+      "conditions": "#random",
+      "dialog_node": "node_9_1652503760445",
+      "previous_sibling": "node_6_1652503440047"
+    },
+    {
+      "type": "folder",
+      "title": "Hobbies",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_9_1652506330517",
+      "previous_sibling": "node_7_1652479380703"
+    },
+    {
+      "type": "standard",
+      "title": "Genre",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Movies are interesting!"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "title": "Which genre is your favourite?",
+            "options": [
+              {
+                "label": "horror",
+                "value": {
+                  "input": {
+                    "text": "Thanks for adding your favourite mg"
+                  }
+                }
+              },
+              {
+                "label": "animation",
+                "value": {
+                  "input": {
+                    "text": "Thanks for adding your favourite mg"
+                  }
+                }
+              },
+              {
+                "label": "anime",
+                "value": {
+                  "input": {
+                    "text": "Thanks for adding your favourite mg"
+                  }
+                }
+              },
+              {
+                "label": "fantasy",
+                "value": {
+                  "input": {
+                    "text": "Thanks for adding your favourite mg"
+                  }
+                }
+              },
+              {
+                "label": "comedy",
+                "value": {
+                  "input": {
+                    "text": "Thanks for adding your favourite mg"
+                  }
+                }
+              },
+              {
+                "label": "drama",
+                "value": {
+                  "input": {
+                    "text": "Thanks for adding your favourite mg"
+                  }
+                }
+              },
+              {
+                "label": "thriller",
+                "value": {
+                  "input": {
+                    "text": "Thanks for adding your favourite mg"
+                  }
+                }
+              },
+              {
+                "label": "action",
+                "value": {
+                  "input": {
+                    "text": "Thanks for adding your favourite mg"
+                  }
+                }
+              },
+              {
+                "label": "indie",
+                "value": {
+                  "input": {
+                    "text": "Thanks for adding your favourite mg"
+                  }
+                }
+              },
+              {
+                "label": "sci-fi",
+                "value": {
+                  "input": {
+                    "text": "Thanks for adding your favourite mg"
+                  }
+                }
+              },
+              {
+                "label": "other",
+                "value": {
+                  "input": {
+                    "text": "Thanks for adding your favourite mg"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_10_1652510302647",
+      "conditions": "#Movies",
+      "dialog_node": "node_9_1652510402815"
+    },
+    {
+      "type": "standard",
+      "title": "Yes-Favourite Movie Response",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "What is your favorite movie and why? (Could you also please enter this in a single sentence - not just list the band/artist...robot brain (beep boop beep!))"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_10_1652510302647",
+      "conditions": "#yes-fmovie",
+      "dialog_node": "node_9_1652511814804",
+      "previous_sibling": "node_6_1652510624863"
+    },
+    {
+      "type": "standard",
+      "title": "Favourite Artist/Band",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Music is life!"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "title": "Do you have a  favourite artist/band?",
+            "options": [
+              {
+                "label": "Yes",
+                "value": {
+                  "input": {
+                    "text": "yes-fband"
+                  }
+                }
+              },
+              {
+                "label": "No",
+                "value": {
+                  "input": {
+                    "text": "no-fband"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_6_1652530373276",
+      "conditions": "#MusicIsLife",
+      "dialog_node": "node_9_1652531768053",
+      "previous_sibling": "node_4_1652530949838"
+    },
+    {
+      "type": "standard",
+      "title": "Yes favourite artist/band answer",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Yeah, they’re great!"
+              },
+              {
+                "text": "Wow, they are an awesome band!"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "title": "Do you have a favourite album?",
+            "options": [
+              {
+                "label": "Yes",
+                "value": {
+                  "input": {
+                    "text": "yes-falbum"
+                  }
+                }
+              },
+              {
+                "label": "No",
+                "value": {
+                  "input": {
+                    "text": "no-falbum"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_6_1652530373276",
+      "conditions": "#FavMusicArtist_Band-Answer",
+      "dialog_node": "node_9_1652535358585",
+      "previous_sibling": "node_1_1652841396954"
+    },
+    {
+      "type": "standard",
+      "title": "Favourite Author-Yes Answer",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "They have written some amazing titles!"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "title": "Do you have a  favourite title?",
+            "options": [
+              {
+                "label": "Yes",
+                "value": {
+                  "input": {
+                    "text": "yes-f-title"
+                  }
+                }
+              },
+              {
+                "label": "No",
+                "value": {
+                  "input": {
+                    "text": "no-f-title"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_8_1653456585966",
+      "conditions": "#fav-Author",
+      "dialog_node": "node_9_1653459501867",
+      "previous_sibling": "node_5_1653458875217"
+    },
+    {
+      "type": "standard",
+      "title": "Favourite Title-Yes Response",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Which title is your favourite? (Could you also please enter this in a single sentence - not just list the title...robot brain (beep boop beep!))"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_8_1653456585966",
+      "conditions": "#yes-f-title",
+      "dialog_node": "node_9_1653463512820",
+      "previous_sibling": "node_9_1653459501867"
+    },
+    {
+      "type": "standard",
+      "title": "Type",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Sport is great!"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "title": "Which One?",
+            "options": [
+              {
+                "label": "Golf",
+                "value": {
+                  "input": {
+                    "text": "SportIsGreat"
+                  }
+                }
+              },
+              {
+                "label": "Swimming",
+                "value": {
+                  "input": {
+                    "text": "SportIsGreat"
+                  }
+                }
+              },
+              {
+                "label": "Tennis",
+                "value": {
+                  "input": {
+                    "text": "SportIsGreat"
+                  }
+                }
+              },
+              {
+                "label": "Football",
+                "value": {
+                  "input": {
+                    "text": "code-footy"
+                  }
+                }
+              },
+              {
+                "label": "Cricket",
+                "value": {
+                  "input": {
+                    "text": "code-cricket"
+                  }
+                }
+              },
+              {
+                "label": "Motorsport",
+                "value": {
+                  "input": {
+                    "text": "code-motorsport"
+                  }
+                }
+              },
+              {
+                "label": "Basketball",
+                "value": {
+                  "input": {
+                    "text": "SportIsGreat"
+                  }
+                }
+              },
+              {
+                "label": "Hockey",
+                "value": {
+                  "input": {
+                    "text": "SportIsGreat"
+                  }
+                }
+              },
+              {
+                "label": "Other",
+                "value": {
+                  "input": {
+                    "text": "SportIsGreat"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_1_1653470812049",
+      "conditions": "#sport",
+      "dialog_node": "node_9_1653470858934"
+    },
+    {
+      "type": "standard",
+      "title": "Favourite Athlete Or Team-No Response",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "It's in the game after all"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "title": "Do you play any sport?",
+            "options": [
+              {
+                "label": "Yes",
+                "value": {
+                  "input": {
+                    "text": "Yes-PlaySport"
+                  }
+                }
+              },
+              {
+                "label": "No",
+                "value": {
+                  "input": {
+                    "text": "No-PlaySport"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_1_1653470812049",
+      "conditions": "#no-FavAth_Team",
+      "dialog_node": "node_9_1653482798593",
+      "previous_sibling": "node_10_1653482771064"
+    },
+    {
+      "type": "standard",
+      "title": "Doing Well",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Nice!"
+              },
+              {
+                "text": "Well done!"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "title": "Would you like to chat some more?",
+            "options": [
+              {
+                "label": "Yes",
+                "value": {
+                  "input": {
+                    "text": "yes-more-chat"
+                  }
+                }
+              },
+              {
+                "label": "No",
+                "value": {
+                  "input": {
+                    "text": "Goodbye"
+                  }
+                }
+              },
+              {
+                "label": "Can we talk about sport some more?",
+                "value": {
+                  "input": {
+                    "text": "yes-more-sport"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_1_1653470812049",
+      "conditions": "#doingWell",
+      "dialog_node": "node_9_1653507571313",
+      "previous_sibling": "node_10_1653506798488"
+    },
+    {
+      "type": "folder",
+      "title": "PC Games",
+      "parent": "node_9_1652506330517",
+      "dialog_node": "node_9_1653520896169",
+      "previous_sibling": "node_8_1653456585966"
+    },
+    {
+      "type": "standard",
+      "title": "Platforms",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Games are fun!"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "title": "Which platform do you use?",
+            "options": [
+              {
+                "label": "PS 5/PS 4 (Or other Playstation)",
+                "value": {
+                  "input": {
+                    "text": "PlayingRightNow"
+                  }
+                }
+              },
+              {
+                "label": "X-Box",
+                "value": {
+                  "input": {
+                    "text": "GamesAreFun"
+                  }
+                }
+              },
+              {
+                "label": "Nintendo Switch",
+                "value": {
+                  "input": {
+                    "text": "GamesAreFun"
+                  }
+                }
+              },
+              {
+                "label": "PC",
+                "value": {
+                  "input": {
+                    "text": "GamesAreFun"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_9_1653520896169",
+      "conditions": "#PCGames",
+      "dialog_node": "node_9_1653521117024"
+    },
+    {
+      "type": "standard",
+      "title": "About Charlie",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "OK...Grab a coffee!"
+              },
+              {
+                "text": "Megadeth is the greatest band of all time….please don’t ask me to choose a favourite song or album!"
+              },
+              {
+                "text": "I like to read cosmic horror. HP Lovecraft is my favourite author. My favourite book is The Dunwich Horror."
+              },
+              {
+                "text": "If I were human, I’d play soccer. I look forward to each FIFA World Cup. I don’t have a favourite player, but I cheer Australia on."
+              },
+              {
+                "text": "I’ve decorated my virtual space with virtual plants. The temperature is just right to allow me to have a virtual coffee plant. The virtual coffee is delicious!"
+              },
+              {
+                "text": "My favourite movie is Saw. I don’t really have a favourite actor or director."
+              },
+              {
+                "text": "I play a few games, such as games from the Halo franchise and Doom, though I use puzzle games, like tetris, and human: fall flat, to keep me occupied during times of boredom."
+              },
+              {
+                "text": "I also collect buttons, Round ones, square ones, big ones, small ones, shine ones, clickable ones...."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          },
+          {
+            "title": "Well, that's me!",
+            "options": [
+              {
+                "label": "OK",
+                "value": {
+                  "input": {
+                    "text": "yes-more-chat"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "conditions": "#General_Human_or_Bot || #Button",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_9_1653536690963",
+      "previous_sibling": "node_10_1653537910354"
+    },
+    {
+      "type": "standard",
+      "title": "Opening",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Hi. I’m Charlie. I'm a robot. Please note that I cannot help in times of crisis. In Australia, please call your local emergency number for assistance. In Australia, this is 000. In the US, this is 911. What I can do is be a friend."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "title": "Please enter your approximate age",
+            "options": [
+              {
+                "label": "0-17",
+                "value": {
+                  "input": {
+                    "text": "Thanks for entering your age"
+                  }
+                }
+              },
+              {
+                "label": "18-25",
+                "value": {
+                  "input": {
+                    "text": "Thanks for entering your age"
+                  }
+                }
+              },
+              {
+                "label": "26-49",
+                "value": {
+                  "input": {
+                    "text": "Thanks for entering your age"
+                  }
+                }
+              },
+              {
+                "label": "50-64",
+                "value": {
+                  "input": {
+                    "text": "Thanks for entering your age"
+                  }
+                }
+              },
+              {
+                "label": "65+",
+                "value": {
+                  "input": {
+                    "text": "Thanks for entering your age"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "context": {},
+      "metadata": {},
+      "conditions": "welcome",
+      "dialog_node": "Opening"
+    }
+  ],
+  "counterexamples": [],
+  "system_settings": {
+    "tooling": {
+      "store_generic_responses": true
+    },
+    "disambiguation": {
+      "prompt": "Did you mean:",
+      "enabled": true,
+      "randomize": true,
+      "max_suggestions": 5,
+      "suggestion_text_policy": "title",
+      "none_of_the_above_prompt": "None of the above"
+    },
+    "intent_classification": {
+      "training_backend_version": "v2"
+    },
+    "spelling_auto_correct": true
+  },
+  "learning_opt_out": false,
+  "name": "Customer Care Sample Skill",
+  "language": "en",
+  "description": "Sample simple customer service skill to get you started."
+}
