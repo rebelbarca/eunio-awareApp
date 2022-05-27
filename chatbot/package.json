@@ -2,8 +2,8 @@
   "name": "chatbot",
   "version": "1.0.0",
   "description": "chatbot app based on react and express",
-  "main": "server.js",
-  "scripts": {
+  "main": "server.js", 
+   "scripts": {
     "start": "node server",
     "server": "nodemon server"
   },
